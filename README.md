@@ -91,6 +91,11 @@ This is an architecture showcase, so no production performance KPI is claimed. I
 - review queue repository;
 - policy service for safe public decisions.
 
+## Engineering Notes
+
+- [Marketplace state machine before payments](docs/engineering-notes/marketplace-state-machine-before-payments.md)
+- [Custody, authenticity, and settlement boundaries](docs/engineering-notes/custody-authenticity-and-settlement-boundaries.md)
+
 ## Security & Privacy Notes
 
 No seller data, verification rules, payment details, dispute procedures, custody process details, or private business strategy are included.
@@ -104,4 +109,3 @@ PHP, WordPress, WooCommerce, MySQL, REST API, JavaScript.
 - Portfolio: https://amiraliyaghouti.com
 - Projects: https://amiraliyaghouti.com/projects.html
 - GitHub profile: https://github.com/shiny-a2
-
