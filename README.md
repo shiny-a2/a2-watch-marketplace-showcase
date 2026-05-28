@@ -107,6 +107,12 @@ This is an architecture showcase, so no production performance KPI is claimed. I
 - [Failure mode matrix](docs/infrastructure/failure-mode-matrix.md)
 - [Infrastructure samples](samples/infrastructure)
 
+## Quality Signal
+
+- [Quality signal notes](docs/quality-signal.md)
+- [Sample PHP syntax workflow](.github/workflows/sample-php-lint.yml)
+- [Samples directory](samples)
+
 ## Security & Privacy Notes
 
 No seller data, verification rules, payment details, dispute procedures, custody process details, or private business strategy are included.
