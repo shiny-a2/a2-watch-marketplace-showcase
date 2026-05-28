@@ -96,6 +96,13 @@ This is an architecture showcase, so no production performance KPI is claimed. I
 - [Marketplace state machine before payments](docs/engineering-notes/marketplace-state-machine-before-payments.md)
 - [Custody, authenticity, and settlement boundaries](docs/engineering-notes/custody-authenticity-and-settlement-boundaries.md)
 
+## Infrastructure Notes
+
+- [Request lifecycle](docs/infrastructure/request-lifecycle.md)
+- [Observability and instrumentation](docs/infrastructure/observability-and-instrumentation.md)
+- [Failure mode matrix](docs/infrastructure/failure-mode-matrix.md)
+- [Infrastructure samples](samples/infrastructure)
+
 ## Security & Privacy Notes
 
 No seller data, verification rules, payment details, dispute procedures, custody process details, or private business strategy are included.
