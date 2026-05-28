@@ -1,5 +1,7 @@
 # A2 Watch Marketplace Showcase
 
+[![Sample PHP Syntax Check](https://github.com/shiny-a2/a2-watch-marketplace-showcase/actions/workflows/sample-php-lint.yml/badge.svg)](https://github.com/shiny-a2/a2-watch-marketplace-showcase/actions/workflows/sample-php-lint.yml)
+
 Architecture and implementation showcase for watch marketplace workflows.
 
 Production launch is not represented.
