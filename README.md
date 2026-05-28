@@ -4,6 +4,10 @@ Architecture and implementation showcase for watch marketplace workflows.
 
 Production launch is not represented.
 
+## Reviewer Shortcut
+
+This repo demonstrates marketplace architecture through public-safe state design, not a production launch claim. It relates to seller intake, operator review, certification, reservation, custody, certificate visibility, and settlement boundaries. It proves state-machine thinking, trust boundaries, idempotency, and failure-mode awareness. Start with `docs/infrastructure`, `docs/engineering-notes`, and `samples/infrastructure`. This is a showcase repository, not a production package.
+
 ## Overview
 
 A watch marketplace is not only a product listing problem. The difficult parts are seller intake, verification state, custody and delivery transitions, operator review, trust boundaries, and exception handling.
@@ -111,8 +115,9 @@ No seller data, verification rules, payment details, dispute procedures, custody
 
 PHP, WordPress, WooCommerce, MySQL, REST API, JavaScript.
 
-## Related Links
+## Related Portfolio
 
 - Portfolio: https://amiraliyaghouti.com
 - Projects: https://amiraliyaghouti.com/projects.html
+- Case studies: https://amiraliyaghouti.com/case-studies.html
 - GitHub profile: https://github.com/shiny-a2
