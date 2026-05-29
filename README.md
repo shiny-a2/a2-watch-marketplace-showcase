@@ -115,6 +115,10 @@ This is an architecture showcase, so no production performance KPI is claimed. I
 - [Sample PHP syntax workflow](.github/workflows/sample-php-lint.yml)
 - [Samples directory](samples)
 
+## Related Technical Writing
+
+- [Model Marketplace State Before Payment Implementation](https://github.com/shiny-a2/shiny-a2/blob/main/docs/technical-writing/articles/marketplace-state-before-payments.md)
+
 ## Security & Privacy Notes
 
 No seller data, verification rules, payment details, dispute procedures, custody process details, or private business strategy are included.
