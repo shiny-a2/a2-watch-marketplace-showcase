@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.0 - Acquisition & Onboarding Boundaries
+
+- Added a purchase-eligibility policy sample that composes publication state with certificate availability so off-custody or flagged items are never offered for checkout.
+- Documented an SEO-landing-as-data approach (landing definitions drive both rendered content and head meta) and a seller identity-onboarding boundary (validate inputs, store the proof not the secret).
+
 ## 0.4.0 - Trust Engines & Runtime Proof
 
 - Added an engineering note on offers, settlement, notifications, and verification boundaries.
