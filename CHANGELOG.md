@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.6.0 - Messaging, Privacy, SEO, and Caching Patterns
+
+- Added an event-to-notification bridge sample: a single subscriber maps
+  lifecycle events to transactional messages by audience and template.
+- Added a reversible at-rest contact-storage sample (AEAD): masked for display,
+  recoverable only at send time, never persisted as plaintext.
+- Documented (architecture level) SEO-as-data landing/sitemap/JSON-LD,
+  rate-limited onboarding, sensitive-media access auditing, and cache-aside
+  reads with event-driven invalidation.
+
 ## 0.5.0 - Acquisition & Onboarding Boundaries
 
 - Added a purchase-eligibility policy sample that composes publication state with certificate availability so off-custody or flagged items are never offered for checkout.
