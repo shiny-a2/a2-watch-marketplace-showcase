@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0 - Trust Engines & Runtime Proof
+
+- Added an engineering note on offers, settlement, notifications, and verification boundaries.
+- Added public-safe samples: offer-decision policy, exact-sum installment schedule builder, notification redaction policy, and a certificate-availability policy (certificate status separated from sale availability).
+- Documented an offline runtime-proof approach (WordPress stub boot/render + SQLite-backed schema and service checks) at an architecture level.
+
 ## 0.3.0 - Activity Layer
 
 - Added roadmap, known limitations, contribution notes, and issue template.

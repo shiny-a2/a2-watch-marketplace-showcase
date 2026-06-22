@@ -2,6 +2,12 @@
 
 This repository is an architecture showcase. It does not represent a production launch.
 
+## Recently Added
+
+- Offer-decision, installment-schedule, notification-redaction, and certificate-availability samples.
+- Engineering note on offers, settlement, notifications, and verification boundaries.
+- Architecture-level description of an offline runtime-proof harness.
+
 ## Near Term
 
 - Add a compact state-transition table.

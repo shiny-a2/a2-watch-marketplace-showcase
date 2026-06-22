@@ -101,6 +101,7 @@ This is an architecture showcase, so no production performance KPI is claimed. I
 
 - [Marketplace state machine before payments](docs/engineering-notes/marketplace-state-machine-before-payments.md)
 - [Custody, authenticity, and settlement boundaries](docs/engineering-notes/custody-authenticity-and-settlement-boundaries.md)
+- [Offers, settlement, notifications, and verification boundaries](docs/engineering-notes/offers-settlement-notifications-and-verification.md)
 
 ## Infrastructure Notes
 
