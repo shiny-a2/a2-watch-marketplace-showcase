@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.7.0 - Publication-Before-Certification & Handoff Boundaries
+
+- Added a publication-before-certification note and policy sample: an item
+  becomes publicly visible and purchasable on operator approval, while the
+  "authenticity certified" label is a separate, later state earned only after
+  the item is received and verified in custody. Buyer actions gate on the
+  publication state, not on the label.
+- Added a verification-fee-and-prepaid-handoff note and samples: a mandatory,
+  configuration-driven verification fee (flat or proportional), optional
+  additive services, and a prepaid custody handoff where carriage-due shipments
+  are reconciled against the seller's settlement.
+
 ## 0.6.0 - Messaging, Privacy, SEO, and Caching Patterns
 
 - Added an event-to-notification bridge sample: a single subscriber maps
