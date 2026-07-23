@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.9.0 - Progressive OTP and Session Boundaries
+
+- Documented the boundary between host-storefront identity proof and
+  marketplace-specific buyer/seller authorization and dashboard routing.
+- Added the progressive-authentication rule: one shared server contract powers
+  both an in-place AJAX transition and a server-rendered form fallback.
+- Recorded two reliability controls for OTP interfaces: persist pending state
+  before sending a code, and exclude nonce-bearing authentication pages from
+  public full-page caches.
+
 ## 0.8.0 - Shared Identity and Catalog Consistency Boundaries
 
 - Documented how a marketplace module can reuse an established storefront

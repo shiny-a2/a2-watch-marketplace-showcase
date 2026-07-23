@@ -45,6 +45,8 @@ Marketplace workflows can become unsafe if seller submissions, verification, pub
 - Use an explicit state machine for transitions.
 - Keep operator review separate from public listing visibility.
 - Reuse the host storefront identity while keeping marketplace roles and dashboards module-specific.
+- Keep OTP proof, account reuse, and marketplace authorization as separate steps: a successful code proves identity, then the module attaches its buyer role and resolves the correct buyer/seller dashboard.
+- Use progressive AJAX for authentication with a complete server-rendered form fallback; both paths share one validation and session contract.
 - Source seller/operator brand choices from one canonical taxonomy so public facets remain deterministic.
 - Treat auction functionality as a future module, not a hidden production claim.
 
@@ -75,6 +77,8 @@ flowchart LR
 - State transition validation.
 - Operator-only review actions.
 - No direct seller-to-public publishing path.
+- Authentication pages bypass public full-page caches so embedded nonces cannot outlive their security window.
+- Pending login state must be durable before an OTP is sent; otherwise a delivered code can never advance the visitor to verification.
 - Clear separation between concept, MVP, and production launch status.
 - Public samples omit sensitive verification and payment details.
 
@@ -88,6 +92,7 @@ This is an architecture showcase, so no production performance KPI is claimed. I
 - State design matters more than UI volume early in the project.
 - Public case studies should be honest about runtime status.
 - Fixed mobile navigation layers must be coordinated: a module-level bar hidden behind the host bar is functionally absent even when its markup exists.
+- An interface that looks asynchronous still needs an explicit JSON contract, in-place state transition, safe error handling, and a no-JavaScript fallback; a redirect-only form is not an AJAX flow.
 
 ## Future Improvements
 
