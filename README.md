@@ -44,6 +44,8 @@ Marketplace workflows can become unsafe if seller submissions, verification, pub
 - Separate submission, review, certification, listing, reservation, custody, and delivery states.
 - Use an explicit state machine for transitions.
 - Keep operator review separate from public listing visibility.
+- Reuse the host storefront identity while keeping marketplace roles and dashboards module-specific.
+- Source seller/operator brand choices from one canonical taxonomy so public facets remain deterministic.
 - Treat auction functionality as a future module, not a hidden production claim.
 
 ## Workflow Map
@@ -66,6 +68,7 @@ flowchart LR
 - Keeping verification rules private protects the marketplace from abuse.
 - Separating auction concepts slows launch scope but makes the core workflow easier to reason about.
 - Public documentation can show architecture without exposing operational playbooks.
+- Reusing authentication reduces duplicate identities, but marketplace authorization still needs its own explicit role boundary.
 
 ## Failure Prevention
 
@@ -84,6 +87,7 @@ This is an architecture showcase, so no production performance KPI is claimed. I
 - Marketplaces are trust systems before they are catalog systems.
 - State design matters more than UI volume early in the project.
 - Public case studies should be honest about runtime status.
+- Fixed mobile navigation layers must be coordinated: a module-level bar hidden behind the host bar is functionally absent even when its markup exists.
 
 ## Future Improvements
 

@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.8.0 - Shared Identity and Catalog Consistency Boundaries
+
+- Documented how a marketplace module can reuse an established storefront
+  identity without merging marketplace buyer/seller authorization into the
+  general customer account model.
+- Added the canonical-taxonomy rule used to prevent free-text brand drift from
+  breaking public facets and operator review.
+- Recorded the responsive-navigation lesson that module navigation must replace,
+  not sit behind, an existing fixed mobile navigation layer.
+
 ## 0.7.0 - Publication-Before-Certification & Handoff Boundaries
 
 - Added a publication-before-certification note and policy sample: an item
@@ -51,4 +61,3 @@
 
 - Samples are architecture references and are not a production marketplace implementation.
 - Sensitive verification, payment, and dispute logic is intentionally excluded.
-
