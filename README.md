@@ -47,6 +47,9 @@ Marketplace workflows can become unsafe if seller submissions, verification, pub
 - Reuse the host storefront identity while keeping marketplace roles and dashboards module-specific.
 - Keep OTP proof, account reuse, and marketplace authorization as separate steps: a successful code proves identity, then the module attaches its buyer role and resolves the correct buyer/seller dashboard.
 - Use progressive AJAX for authentication with a complete server-rendered form fallback; both paths share one validation and session contract.
+- Treat shared object cache as an acceleration layer, never as the sole source of truth for a multi-request OTP flow.
+- Reserve each verification attempt and consume a correct OTP as atomic, generation-bound state transitions.
+- Keep unauthenticated SMS budgets in durable atomic IP/mobile buckets so cache eviction or parallel requests cannot turn provider cost controls into fail-open checks.
 - Source seller/operator brand choices from one canonical taxonomy so public facets remain deterministic.
 - Treat auction functionality as a future module, not a hidden production claim.
 
@@ -79,6 +82,8 @@ flowchart LR
 - No direct seller-to-public publishing path.
 - Authentication pages bypass public full-page caches so embedded nonces cannot outlive their security window.
 - Pending login state must be durable before an OTP is sent; otherwise a delivered code can never advance the visitor to verification.
+- A stale worker cache must never revive a consumed token, and concurrent guesses must not bypass the per-code attempt limit.
+- If the durable rate-limit store cannot reserve a slot, stop before contacting the SMS provider.
 - Clear separation between concept, MVP, and production launch status.
 - Public samples omit sensitive verification and payment details.
 
@@ -93,6 +98,7 @@ This is an architecture showcase, so no production performance KPI is claimed. I
 - Public case studies should be honest about runtime status.
 - Fixed mobile navigation layers must be coordinated: a module-level bar hidden behind the host bar is functionally absent even when its markup exists.
 - An interface that looks asynchronous still needs an explicit JSON contract, in-place state transition, safe error handling, and a no-JavaScript fallback; a redirect-only form is not an AJAX flow.
+- Cache acknowledgement is not proof of cross-request durability. OTP state needs a durable source of truth plus conditional updates so provider failures, retries, and parallel verification requests cannot overwrite newer generations.
 
 ## Future Improvements
 

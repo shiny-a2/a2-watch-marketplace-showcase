@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.10.0 - Durable and Atomic OTP State Boundaries
+
+- Documented why a shared object cache cannot be the sole source of truth for a
+  login flow that spans the mobile-entry and code-verification requests.
+- Added the generation-bound transition rule: reserve attempts before comparing
+  a code, consume success atomically, and never let stale cache revive a token.
+- Extended the same boundary to abuse controls: hourly IP/mobile SMS budgets are
+  durable atomic counters and fail closed when their storage is unavailable.
+- Recorded the failure-recovery boundary that prevents an older provider failure
+  from deleting or rolling back a newer OTP generation.
+
 ## 0.9.0 - Progressive OTP and Session Boundaries
 
 - Documented the boundary between host-storefront identity proof and
