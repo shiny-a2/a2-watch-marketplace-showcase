@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.12.0 - Custody Visibility Boundaries
+
+- Documented why a custody record needs two projections rather than one filtered
+  view: the operator answer contains staff names and internal locations, and the
+  owner answer must not.
+- Recorded the allow-list rule that makes the public timeline safe by
+  construction — it renders mapped event labels and timestamps only, so a new
+  column added to the underlying table is invisible there unless somebody
+  deliberately adds it.
+- Added the access boundary for code-only lookups: acceptable when the keyspace
+  makes guessing impractical and the payload is non-sensitive, still rate limited
+  because an existence oracle should never answer at machine speed.
+- Documented why the operator view sorts by oldest movement rather than arrival,
+  and why reconciliation runs on a timer instead of on page load.
+
 ## 0.11.0 - Two-Axis Trust Labelling And Physical Custody Boundaries
 
 - Documented why a single authenticity column cannot separate "the marketplace
