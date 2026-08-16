@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.11.0 - Two-Axis Trust Labelling And Physical Custody Boundaries
+
+- Documented why a single authenticity column cannot separate "the marketplace
+  inspected this" from "the seller claims this", and the two-column model that
+  makes all four honest combinations publishable under explicit labels.
+- Recorded the degradation rule that keeps the model safe: every unrecognised
+  value falls toward the weaker claim, so a defect understates trust rather
+  than overstating it.
+- Added the migration boundary for introducing a non-publishable default: a
+  backfill must run in the same operation as the schema change, or live
+  listings leave the catalogue the moment the column appears.
+- Documented the physical custody ledger: append-only chains opened on arrival
+  and closed only on departure, with location and holder mandatory on every hop
+  and tracking codes generated rather than typed.
+- Recorded why custody writes belong inside the workflow operation that moves
+  the item, so the workflow record and the ledger cannot disagree about whether
+  the item is still held.
+- Added the reconciliation boundary: scheduled cross-checks report discrepancies
+  and never repair them, because silently agreeing the numbers hides the only
+  signal worth acting on.
+- Added a public-safe sample showing facet-key parsing that rejects anything
+  which does not round-trip, so a hand-edited query string cannot widen a filter.
+
 ## 0.10.0 - Durable and Atomic OTP State Boundaries
 
 - Documented why a shared object cache cannot be the sole source of truth for a
