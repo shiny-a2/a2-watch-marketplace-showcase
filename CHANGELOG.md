@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.13.0 - Policies Need a Choke Point
+
+- Documented a class of failure worth naming: a business rule implemented as a
+  predicate, called by the write path, and consulted by none of the four read
+  paths that could show the excluded state to a customer.
+- Recorded the rule that fixes it — enforce at the narrowest point every caller
+  must pass through, so surfaces added later inherit correctness without their
+  authors knowing the rule exists — and where the predicate still belongs, which
+  is the write side, where a human deserves an explanation.
+- Added the second-half audit: filtering reads hides bad state without
+  preventing it, and the writers that produce it are rarely a single path.
+
 ## 0.12.0 - Custody Visibility Boundaries
 
 - Documented why a custody record needs two projections rather than one filtered
