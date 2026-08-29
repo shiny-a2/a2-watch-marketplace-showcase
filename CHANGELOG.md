@@ -1,5 +1,39 @@
 # Changelog
 
+## 0.14.0 - Mint, Do Not Borrow & Private by Policy, Public by Platform
+
+- Documented why an authenticated session is not evidence of any particular
+  fact, and the mint-do-not-borrow rule that answers it: read the sealed and
+  masked pair the sign-in writes through a narrow accessor, require the two to
+  round-trip so a half left behind by a migration is caught, then write a fresh
+  proof bound to the new purpose, context and user rather than loosening the
+  binding every other gate reads the same store through. It is the seal, not the
+  comparison, that makes a forged half worthless, and the seal stays private.
+- Recorded the surface-inventory lesson from the other side of the same
+  boundary: a record can be private by policy and public by platform, because a
+  core WordPress route serves the same bytes without ever consulting the
+  application's policy. Shut it at the source, and treat a best-effort
+  relocation as a second layer rather than as the boundary.
+- Added the missing half of the choke-point rule documented in 0.13.0. Moving a
+  checksum into the storage method closes it for callers nobody remembers, but
+  a stored value can be older than the rule, so the point of use is checked
+  again and a bad value stops in front of somebody who can fix it.
+- Documented three read-side failures of decisions that were recorded
+  correctly: a message field whose slot was inferred from whether its value
+  had a space in it, so a short answer loses its text; a
+  supersede-not-overwrite write that doubles every corrected item in the
+  submitter's own list; and one screen serving a refusal and a suspension,
+  which are different states with different next steps.
+- Recorded the harness rule from the opposite face of that same class of
+  failure: three lanes reported green suites while an end-to-end probe that
+  rendered each page found defects none of them could reach. Assertions about
+  functions are not assertions about pages.
+- Added a public-safe sample showing a scoped-proof mint — round-trip the pair
+  the sign-in wrote using a derivation of its own, refuse a value too short to
+  mask, refuse when a challenge is already in flight or a registered value
+  disagrees, and emit a proof that records its basis alongside purpose,
+  context, user and expiry.
+
 ## 0.13.0 - Policies Need a Choke Point
 
 - Documented a class of failure worth naming: a business rule implemented as a

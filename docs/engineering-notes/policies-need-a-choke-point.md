@@ -34,6 +34,14 @@ Filtering reads hid the bad state; it did not stop it being created. Three write
 
 Each is the same shape: **two paths to one outcome, and the rule attached to one of them.** Worth auditing for directly — find the state, then enumerate every route that can produce it, rather than trusting that the obvious route is the only one.
 
+## Guards do not reach backwards
+
+Some identifiers arrive in a published format that can check itself, and the check was written into the form handler that collected one. A second, older screen wrote the same field through the same service and never called it — the same shape again, with the same fix: move the check into the storage method, and every caller inherits it, including the ones nobody remembers.
+
+What that fix does not touch is the rows already stored. **A stored value can be older than the rule that would have refused it.** Validating writes from today onward says nothing about what was written before today, and a value of this kind is not inert: a later step reads it and acts on it, and whoever is affected by that step need not be whoever typed the value.
+
+So a second check went in at the point of use — the moment the value is about to be acted on rather than merely held — where a bad value stops in front of somebody who can fix it instead of travelling on unremarked. Reads were deliberately left alone: a rule introduced today should not shut somebody out of their own record for having satisfied the rules that existed when they filled it in. Only the next write, and the moment of consequence, refuse.
+
 ## What to take
 
-When a rule matters, ask two questions. *What is the narrowest point every reader passes through?* — put it there. *What are all the writers that can produce the state I am excluding?* — the answer is rarely one.
+When a rule matters, ask three questions. *What is the narrowest point every reader passes through?* — put it there. *What are all the writers that can produce the state I am excluding?* — the answer is rarely one. *What already exists that predates the rule?* — check again where the value does its damage.

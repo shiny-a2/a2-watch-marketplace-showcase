@@ -114,9 +114,29 @@ This is an architecture showcase, so no production performance KPI is claimed. I
 
 ## Engineering Notes
 
+Each note names one failure and the rule it produced. The full set lives in
+[docs/engineering-notes](docs/engineering-notes).
+
+State and lifecycle:
+
 - [Marketplace state machine before payments](docs/engineering-notes/marketplace-state-machine-before-payments.md)
+- [Publication before certification](docs/engineering-notes/publication-before-certification.md)
+- [Two-axis authenticity labelling](docs/engineering-notes/two-axis-authenticity-labelling.md)
 - [Custody, authenticity, and settlement boundaries](docs/engineering-notes/custody-authenticity-and-settlement-boundaries.md)
 - [Offers, settlement, notifications, and verification boundaries](docs/engineering-notes/offers-settlement-notifications-and-verification.md)
+- [Verification fee and prepaid handoff](docs/engineering-notes/verification-fee-and-prepaid-handoff.md)
+
+Custody:
+
+- [Physical custody ledger](docs/engineering-notes/physical-custody-ledger.md)
+- [Custody visibility boundaries](docs/engineering-notes/custody-visibility-boundaries.md)
+
+Enforcement, evidence, and the reader:
+
+- [A policy needs a choke point](docs/engineering-notes/policies-need-a-choke-point.md)
+- [Mint, do not borrow](docs/engineering-notes/mint-do-not-borrow.md)
+- [Private by policy, public by platform](docs/engineering-notes/private-by-policy-public-by-platform.md)
+- [The read side of a decision](docs/engineering-notes/read-side-of-a-decision.md)
 
 ## Infrastructure Notes
 
