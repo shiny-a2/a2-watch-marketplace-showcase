@@ -138,6 +138,8 @@ Enforcement, evidence, and the reader:
 - [Private by policy, public by platform](docs/engineering-notes/private-by-policy-public-by-platform.md)
 - [The read side of a decision](docs/engineering-notes/read-side-of-a-decision.md)
 - [A verdict must move the file](docs/engineering-notes/a-verdict-must-move-the-file.md)
+- [One fact, one message](docs/engineering-notes/one-fact-one-message.md)
+- [Decisions outlive their workflow](docs/engineering-notes/decisions-outlive-their-workflow.md)
 
 ## Infrastructure Notes
 

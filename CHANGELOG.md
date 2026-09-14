@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.16.0 - One Fact, One Message & Decisions Outlive Their Workflow
+
+- Documented the two faults the previous release's refusal shipped with, both
+  invisible to tests that only asserted that a message was sent: one action
+  dispatched two events, both mapped to the same template, so the recipient was
+  told the same thing twice a second apart; and the message carried prose
+  written for a screen through a transport whose spaced value slots have a hard
+  ceiling, so what arrived was a fragment and an ellipsis. The rule that answers
+  it — one fact, one message; two forms of every reason with the short one
+  measured against the ceiling by the suite; the leading reason recorded where
+  it is chosen rather than parsed back out of prose; the notification as the
+  summons and the panel as the record.
+- Recorded what a changed route does to the guards and tests left behind it.
+  Moving a refused item from a second party's approval queue to the submitter
+  invalidated the approval step, which then tried to close a record the
+  submitter had been invited to correct, and disarmed a guard that had worked by
+  finding a related open row rather than by asking the question it meant. Close
+  a decision where it is made when nothing further is owed on it; guard on the
+  state that means the thing being guarded; and re-run everything that touches a
+  route when the route moves — two suites here had been red since the previous
+  release and were reported green.
+
 ## 0.15.0 - A Verdict Must Move The File
 
 - Documented a decision that was recorded and never delivered: a specialist
