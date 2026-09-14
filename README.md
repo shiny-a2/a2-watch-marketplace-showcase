@@ -137,6 +137,7 @@ Enforcement, evidence, and the reader:
 - [Mint, do not borrow](docs/engineering-notes/mint-do-not-borrow.md)
 - [Private by policy, public by platform](docs/engineering-notes/private-by-policy-public-by-platform.md)
 - [The read side of a decision](docs/engineering-notes/read-side-of-a-decision.md)
+- [A verdict must move the file](docs/engineering-notes/a-verdict-must-move-the-file.md)
 
 ## Infrastructure Notes
 

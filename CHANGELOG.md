@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.15.0 - A Verdict Must Move The File
+
+- Documented a decision that was recorded and never delivered: a specialist
+  refusing an incoming submission wrote the finding correctly and left the
+  record in the status it already had, so it waited in an operator's queue for
+  a verdict that had already been given, while the only person who could act on
+  the reason — the submitter holding the object — was told nothing. An event
+  was dispatched; nothing listened to it, which made the refusal observable in
+  a log and invisible everywhere a person looks.
+- Recorded the rule that answers it: a recorded verdict changes the record's
+  state in the same operation that writes the finding, and routes the item to
+  the state that names the party who can act rather than back to the party who
+  cannot. The specialist's typed sentence travels with the reason labels into
+  both the record and the message, so the submitter's own panel and their
+  notification say the same thing.
+- Noted the two edges that make it safe to run twice: the transition is
+  idempotent at the destination, so a second refusal records its finding and
+  leaves the first answer intact; and the state gets its own message template,
+  because borrowing the rejection wording tells a submitter their item was
+  turned down when what is wanted is a correction.
+
 ## 0.14.0 - Mint, Do Not Borrow & Private by Policy, Public by Platform
 
 - Documented why an authenticated session is not evidence of any particular
