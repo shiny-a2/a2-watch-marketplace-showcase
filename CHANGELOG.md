@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.17.0 — Clearer Product Photography and Accessible Zoom
+
+- Refined public watch galleries with uncropped photography, a scrollable thumbnail strip and a clear zoom action.
+- Added full-size viewing, magnification, touch navigation, keyboard controls and focus restoration while preserving media privacy boundaries.
+- Verified responsive browser interactions and existing application/media checks. No customer data or internal access details are included in this update.
+
 ## 0.16.0 - One Fact, One Message & Decisions Outlive Their Workflow
 
 - Documented the two faults the previous release's refusal shipped with, both
