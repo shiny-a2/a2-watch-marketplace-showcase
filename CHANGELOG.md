@@ -1,3 +1,7 @@
+## 0.157.1 — Production theme compatibility
+
+Resolved host dark-mode card-background overrides and SEO-plugin title precedence on virtual landing pages after live verification.
+
 ## 0.157.0 — Clearer catalogue cards
 
 Redesigned the shared marketplace card across browse pages, landing rails and auctions. Product imagery, authenticity status, price and the details action now have distinct space. Adaptive columns, accessible wishlist controls, the shared site font and coordinated light/dark colors improve comparison on phones and desktops. Virtual landing routes now load their missing styles and use the correct page title.
