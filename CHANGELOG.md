@@ -1,3 +1,9 @@
+## 0.157.0 — Clearer catalogue cards
+
+Redesigned the shared marketplace card across browse pages, landing rails and auctions. Product imagery, authenticity status, price and the details action now have distinct space. Adaptive columns, accessible wishlist controls, the shared site font and coordinated light/dark colors improve comparison on phones and desktops. Virtual landing routes now load their missing styles and use the correct page title.
+
+Validated with the existing 310-check flow harness, 28 boot pages, virtual-route regression cases and responsive browser previews. No product or customer data was changed by this design update.
+
 ## 0.156.0 — Reviewed listing changes
 
 Sellers and administrators can request edits to marketplace watch prices, descriptions and photos. A repair review shows the current and proposed details; approval applies the changes and rejection explains the reason in the seller ticket. Live details stay unchanged during review.
