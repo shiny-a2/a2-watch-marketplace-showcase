@@ -1,3 +1,9 @@
+## 0.156.0 — Reviewed listing changes
+
+Sellers and administrators can request edits to marketplace watch prices, descriptions and photos. A repair review shows the current and proposed details; approval applies the changes and rejection explains the reason in the seller ticket. Live details stay unchanged during review.
+
+The release adds responsive request/review screens, ownership checks, duplicate and stale-edit protection, transactional ticket replies and optional provider-approved SMS patterns. Validation includes 29 targeted workflow assertions, 310 existing flow checks and eight mobile/desktop theme layouts. SMS activation requires provider pattern registration; no real customer notification was sent during tests.
+
 # Changelog
 
 ## 0.17.0 — Clearer Product Photography and Accessible Zoom
