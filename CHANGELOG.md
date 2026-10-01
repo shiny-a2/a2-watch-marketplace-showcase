@@ -1,3 +1,7 @@
+## 0.157.4 — Seller identity corrections before approval
+
+Sellers can now replace their ID-card photo or record a new verification video while review is pending, without re-entering their identity and bank details. The panel shows any review reason and keeps approved records locked. Mobile recording now uses the actual output format and lets recording finish before releasing the camera. The existing identity and marketplace checks passed.
+
 ## 0.157.3 — Clearer operator refusals
 
 Marketplace operators now provide a reason when declining a watch or asking its seller for changes. The seller sees the explanation beside that watch, with a direct path to correct and resubmit it. The seller overview flags items needing attention. Automated checks cover reason validation, notification behavior, seller correction and the existing review flow.
