@@ -16,6 +16,12 @@ The release adds responsive request/review screens, ownership checks, duplicate 
 
 # Changelog
 
+## 0.17.1 — Clearer Offer Amount Entry
+
+- Make the buyer offer field show grouped amounts while typing and explain the amount unit in plain language.
+- Accept Persian and Arabic digits through the shared storefront formatter while keeping the submitted value numeric.
+- Validate the form syntax and confirm the deployed marketplace remains available.
+
 ## 0.17.0 — Clearer Product Photography and Accessible Zoom
 
 - Refined public watch galleries with uncropped photography, a scrollable thumbnail strip and a clear zoom action.
