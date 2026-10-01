@@ -1,3 +1,7 @@
+## 0.157.3 — Clearer operator refusals
+
+Marketplace operators now provide a reason when declining a watch or asking its seller for changes. The seller sees the explanation beside that watch, with a direct path to correct and resubmit it. The seller overview flags items needing attention. Automated checks cover reason validation, notification behavior, seller correction and the existing review flow.
+
 ## 0.157.1 — Production theme compatibility
 
 Resolved host dark-mode card-background overrides and SEO-plugin title precedence on virtual landing pages after live verification.
