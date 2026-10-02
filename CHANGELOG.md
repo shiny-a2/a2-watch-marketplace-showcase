@@ -1,3 +1,7 @@
+## 0.157.5 — Honest marketplace purchase status
+
+Ordinary watch pages now show auction controls only when an active public auction exists. A watch whose seller verification is incomplete clearly explains why payment and offers are unavailable; the server-side identity check remains in place. Mobile and desktop storefront views were checked after release.
+
 ## 0.157.4 — Seller identity corrections before approval
 
 Sellers can now replace their ID-card photo or record a new verification video while review is pending, without re-entering their identity and bank details. The panel shows any review reason and keeps approved records locked. Mobile recording now uses the actual output format and lets recording finish before releasing the camera. The existing identity and marketplace checks passed.
