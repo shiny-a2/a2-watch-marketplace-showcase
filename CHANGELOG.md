@@ -1,3 +1,7 @@
+# 0.158.0 — Replay-safe seller intake and readable reviews
+
+The matching private update serializes repeated seller uploads, preserves one case on correction retries and distinguishes another physical unit of the same model. Change review uses compact before/after information and consistent light/dark surfaces. Repair decisions retain valuation and separate registration/publication timestamps. Exact-photo duplicate maintenance preserves history and skips financial/custody-linked records. Synthetic checks cover replay and approval boundaries, with mobile/desktop review and decision interactions in both themes. Historical missing values are not invented. Production records, credentials and implementation remain private.
+
 ## 0.157.5 — Honest marketplace purchase status
 
 Ordinary watch pages now show auction controls only when an active public auction exists. A watch whose seller verification is incomplete clearly explains why payment and offers are unavailable; the server-side identity check remains in place. Mobile and desktop storefront views were checked after release.
