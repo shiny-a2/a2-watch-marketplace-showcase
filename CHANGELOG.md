@@ -32,6 +32,13 @@ The release adds responsive request/review screens, ownership checks, duplicate 
 
 # Changelog
 
+## 0.18.0 — Reviewed Watch Deposits
+
+- Added a clear review step before a buyer pays a watch reservation deposit, showing the watch price, deposit, remaining balance and next steps.
+- Added mobile verification and explicit acceptance of the reservation terms before handing off to the selected bank gateway.
+- Checked payment-unit consistency so the amount confirmed by the buyer matches the amount requested at payment.
+- Verified the responsive review and code-confirmation states in light and dark themes. No customer records or payment credentials are included here.
+
 ## 0.17.1 — Clearer Offer Amount Entry
 
 - Make the buyer offer field show grouped amounts while typing and explain the amount unit in plain language.
