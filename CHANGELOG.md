@@ -1,3 +1,7 @@
+# 0.159.7 — Continue a pending watch purchase
+
+When a buyer has already started an eligible deposit for a watch, the watch page now offers a direct way to continue that original payment. The link belongs only to the right account and is checked again on use, so a return visit does not create a duplicate payment attempt. Synthetic checks cover ownership, expiry, payment state and amount; the action was inspected on phone and desktop widths in light and dark themes.
+
 # 0.159.6 — Clearer buyer return path and verification states
 
 Marketplace sign-in now returns a buyer to the same watch and purchase section. The purchase review reuses an already verified account phone, while buyer identity details can be validated once and reused on later visits. The operator queue now distinguishes a seller account decision from completed identity review, and reports failed saves clearly. Synthetic checks cover return navigation, identity validation and review states; responsive purchase views were inspected in both themes. No live purchase or customer message was created for testing.
