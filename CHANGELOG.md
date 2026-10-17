@@ -1,3 +1,7 @@
+# 0.159.9 — Marketplace navigation with a clear store exit
+
+The matching private update gives marketplace pages a dedicated header, logo destination and mobile menu. Buyers can reach watch listings, selling, services, tracking and their account within the marketplace, while a single clearly labelled route leads to the main new-watch store. The header reuses the site's theme preference and was inspected across phone, tablet and desktop widths in light and dark themes. Navigation and keyboard interactions passed synthetic checks; no customer transaction was created.
+
 # 0.159.8 — Clearer post-reservation hand-offs
 
 The matching private update adds a concise operator view of confirmed reservations and each next hand-off. Seller pages now make the service and shipment steps easier to find, while shipping status and receipt costs are recorded without changing existing settlement math. The update also prepares separate transactional notices for the seller; those notices require approved provider templates before they can send. Offline flow checks passed, and the touched seller view was inspected at phone and desktop widths in light and dark themes. No live payment or message was created for testing.
