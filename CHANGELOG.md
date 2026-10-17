@@ -1,3 +1,7 @@
+# 0.159.6 — Clearer buyer return path and verification states
+
+Marketplace sign-in now returns a buyer to the same watch and purchase section. The purchase review reuses an already verified account phone, while buyer identity details can be validated once and reused on later visits. The operator queue now distinguishes a seller account decision from completed identity review, and reports failed saves clearly. Synthetic checks cover return navigation, identity validation and review states; responsive purchase views were inspected in both themes. No live purchase or customer message was created for testing.
+
 # 0.159.5 — Recoverable deposits and editable pending photos
 
 Buyers can resume an eligible unpaid marketplace deposit from their account using the existing payment order. The action checks ownership, time limit, order state and amount again before opening the bank payment flow, avoiding a duplicate reservation or charge request.
