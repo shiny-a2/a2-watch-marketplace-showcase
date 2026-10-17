@@ -1,3 +1,7 @@
+# 0.159.8 — Clearer post-reservation hand-offs
+
+The matching private update adds a concise operator view of confirmed reservations and each next hand-off. Seller pages now make the service and shipment steps easier to find, while shipping status and receipt costs are recorded without changing existing settlement math. The update also prepares separate transactional notices for the seller; those notices require approved provider templates before they can send. Offline flow checks passed, and the touched seller view was inspected at phone and desktop widths in light and dark themes. No live payment or message was created for testing.
+
 # 0.159.7 — Continue a pending watch purchase
 
 When a buyer has already started an eligible deposit for a watch, the watch page now offers a direct way to continue that original payment. The link belongs only to the right account and is checked again on use, so a return visit does not create a duplicate payment attempt. Synthetic checks cover ownership, expiry, payment state and amount; the action was inspected on phone and desktop widths in light and dark themes.
