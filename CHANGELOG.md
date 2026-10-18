@@ -1,3 +1,7 @@
+# 0.159.11 — A focused marketplace operations desk
+
+The marketplace admin menu now keeps daily review and fulfilment queues prominent, while specialist diagnostics remain available from Settings. Pending-watch and identity-review counts follow the same records operators can open, including long queues; completed identity files are shown as a useful sub-count without inflating the overall total. The dashboard prioritizes work that needs attention and tucks secondary reports behind a disclosure. Review lists now paginate, and legacy action fallbacks return to active admin pages instead of broken destinations. Offline workflow checks and responsive light/dark browser previews passed; no customer records or transactions were created for testing.
+
 # 0.159.10 — A clearer path from watch to checkout
 
 Marketplace buyers now move from a watch's Buy action to a dedicated checkout after phone verification. The page shows the watch price, deposit and remaining balance together, then asks for delivery province, city, postal code and full address before payment. Buyers explicitly accept the purchase conditions with a typed name; a valid unfinished payment still opens its original order. The buyer view was checked at mobile and desktop widths in light and dark themes, including city selection, conditions and code-verification states. No live purchase or customer message was created for testing.
