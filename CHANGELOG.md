@@ -1,3 +1,7 @@
+# 0.159.12 — Easier marketplace administration on phones
+
+Marketplace status filters now read as compact, accessible controls instead of crowded text links. Wide operations tables scroll within their own panels on small screens, keeping the rest of the page stable. The final-payment invitation view now uses clear Persian labels and keeps technical diagnostics optional. All 21 active admin screens were checked at phone and desktop widths without page overflow, and the existing 321 workflow checks passed. No customer purchase, message or financial record was created for testing.
+
 # 0.159.11 — A focused marketplace operations desk
 
 The marketplace admin menu now keeps daily review and fulfilment queues prominent, while specialist diagnostics remain available from Settings. Pending-watch and identity-review counts follow the same records operators can open, including long queues; completed identity files are shown as a useful sub-count without inflating the overall total. The dashboard prioritizes work that needs attention and tucks secondary reports behind a disclosure. Review lists now paginate, and legacy action fallbacks return to active admin pages instead of broken destinations. Offline workflow checks and responsive light/dark browser previews passed; no customer records or transactions were created for testing.
