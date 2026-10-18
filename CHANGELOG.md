@@ -1,3 +1,7 @@
+# 0.159.15 — Clearer marketplace support journeys
+
+The marketplace's services, authenticity-card lookup, custody tracking and auction browsing pages now share a cleaner responsive layout in light and dark themes. Certificate QR links open the correct verification page while preserving private card access; the auction list shows only lots currently open for bids and keeps auction status separate from authenticity information. Service requests collect the watch model and validate contact details. Offline regression checks and mobile/desktop visual previews passed; no customer order, bid or certificate was created for testing.
+
 # 0.159.14 — Complete watch registration before review
 
 Seller registration now requires a meaningful watch description, an asking price, and the required photographs. The former unknown-price option is gone. A watch enters the review queue only after its images are saved, and older incomplete records cannot be approved until corrected. The seller form was checked at mobile and desktop widths in light and dark themes; synthetic checks cover missing text, price, photographs and the old-watch box exception. No live listing was created for testing.
