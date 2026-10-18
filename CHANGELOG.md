@@ -1,3 +1,7 @@
+# 0.159.10 — A clearer path from watch to checkout
+
+Marketplace buyers now move from a watch's Buy action to a dedicated checkout after phone verification. The page shows the watch price, deposit and remaining balance together, then asks for delivery province, city, postal code and full address before payment. Buyers explicitly accept the purchase conditions with a typed name; a valid unfinished payment still opens its original order. The buyer view was checked at mobile and desktop widths in light and dark themes, including city selection, conditions and code-verification states. No live purchase or customer message was created for testing.
+
 # 0.159.9 — Marketplace navigation with a clear store exit
 
 The matching private update gives marketplace pages a dedicated header, logo destination and mobile menu. Buyers can reach watch listings, selling, services, tracking and their account within the marketplace, while a single clearly labelled route leads to the main new-watch store. The header reuses the site's theme preference and was inspected across phone, tablet and desktop widths in light and dark themes. Navigation and keyboard interactions passed synthetic checks; no customer transaction was created.
