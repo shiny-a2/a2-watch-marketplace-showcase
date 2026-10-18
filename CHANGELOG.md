@@ -1,3 +1,11 @@
+# 0.159.14 — Complete watch registration before review
+
+Seller registration now requires a meaningful watch description, an asking price, and the required photographs. The former unknown-price option is gone. A watch enters the review queue only after its images are saved, and older incomplete records cannot be approved until corrected. The seller form was checked at mobile and desktop widths in light and dark themes; synthetic checks cover missing text, price, photographs and the old-watch box exception. No live listing was created for testing.
+
+# 0.159.13 — Clearer marketplace routes and buyer guidance
+
+Marketplace pages now use a focused navigation and clearer buyer/seller copy about deposits, inspection and final settlement. Legacy entry links lead to the active marketplace pages. The update removes blanket product claims from shared archive copy and keeps the marketplace footer focused on relevant destinations.
+
 # 0.159.12 — Easier marketplace administration on phones
 
 Marketplace status filters now read as compact, accessible controls instead of crowded text links. Wide operations tables scroll within their own panels on small screens, keeping the rest of the page stable. The final-payment invitation view now uses clear Persian labels and keeps technical diagnostics optional. All 21 active admin screens were checked at phone and desktop widths without page overflow, and the existing 321 workflow checks passed. No customer purchase, message or financial record was created for testing.
