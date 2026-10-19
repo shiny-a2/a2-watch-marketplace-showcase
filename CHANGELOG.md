@@ -1,3 +1,7 @@
+# 0.159.16 — Accurate marketplace guidance
+
+The services, authenticity lookup and auction pages now use shorter Persian explanations tied to what is actually available. The copy no longer promises a certificate for every watch or an active auction when none exists. Informational sections follow the same responsive light/dark visual system and were checked at mobile and desktop widths. The previous page text is retained for rollback.
+
 # 0.159.15 — Clearer marketplace support journeys
 
 The marketplace's services, authenticity-card lookup, custody tracking and auction browsing pages now share a cleaner responsive layout in light and dark themes. Certificate QR links open the correct verification page while preserving private card access; the auction list shows only lots currently open for bids and keeps auction status separate from authenticity information. Service requests collect the watch model and validate contact details. Offline regression checks and mobile/desktop visual previews passed; no customer order, bid or certificate was created for testing.
