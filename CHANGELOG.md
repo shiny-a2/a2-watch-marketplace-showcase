@@ -1,3 +1,7 @@
+# 0.159.19 — Marketplace identity reaches one customer file
+
+Verified marketplace sign-in and completed buyer or seller profiles now emit narrow events for a shared, phone-keyed customer record. This lets an operator recognize a marketplace-origin visitor without creating a second customer file; details supplied later enrich the same file. Existing acquisition sources and operator edits remain protected. Offline checks covered account reuse and duplicate prevention.
+
 # 0.159.18 — Make older incomplete requests visible
 
 The seller review queue now identifies older watch requests that lack a price, description or required image and names the missing item beside each case. Reviewers can open the case and request a correction; the update does not silently change a customer's status or send a message. The current registration path rejects incomplete submissions, including attempts to use the retired unknown-price field. Synthetic journey checks and mobile/desktop light/dark form previews passed.
