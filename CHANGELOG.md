@@ -1,3 +1,7 @@
+# 0.159.17 — A clear service fallback
+
+The public services page now respects its availability setting. When online requests are not configured, it gives visitors a direct support action instead of exposing a form that cannot be fulfilled. Watch-linked service purchases retain their existing flow. The service page was checked in light and dark themes at mobile and desktop widths.
+
 # 0.159.16 — Accurate marketplace guidance
 
 The services, authenticity lookup and auction pages now use shorter Persian explanations tied to what is actually available. The copy no longer promises a certificate for every watch or an active auction when none exists. Informational sections follow the same responsive light/dark visual system and were checked at mobile and desktop widths. The previous page text is retained for rollback.
