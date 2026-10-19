@@ -1,3 +1,7 @@
+# 0.159.18 — Make older incomplete requests visible
+
+The seller review queue now identifies older watch requests that lack a price, description or required image and names the missing item beside each case. Reviewers can open the case and request a correction; the update does not silently change a customer's status or send a message. The current registration path rejects incomplete submissions, including attempts to use the retired unknown-price field. Synthetic journey checks and mobile/desktop light/dark form previews passed.
+
 # 0.159.17 — A clear service fallback
 
 The public services page now respects its availability setting. When online requests are not configured, it gives visitors a direct support action instead of exposing a form that cannot be fulfilled. Watch-linked service purchases retain their existing flow. The service page was checked in light and dark themes at mobile and desktop widths.
