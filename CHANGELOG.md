@@ -1,3 +1,7 @@
+# 0.159.20 — Faster seller verification and a focused operator dashboard
+
+Seller verification now offers an access-controlled live search across case identifiers, names, contact details and linked accounts. The command dashboard shows actionable queues without repeating idle navigation stages. The search component was checked in light and dark themes at mobile and desktop widths, including interactive results and keyboard focus.
+
 # 0.159.19 — Marketplace identity reaches one customer file
 
 Verified marketplace sign-in and completed buyer or seller profiles now emit narrow events for a shared, phone-keyed customer record. This lets an operator recognize a marketplace-origin visitor without creating a second customer file; details supplied later enrich the same file. Existing acquisition sources and operator edits remain protected. Offline checks covered account reuse and duplicate prevention.
