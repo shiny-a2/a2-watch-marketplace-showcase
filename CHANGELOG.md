@@ -1,6 +1,6 @@
-# 0.159.22 — Service pricing and payment-unit safety (prepared)
+# 0.159.22 — Service pricing and payment-unit safety
 
-Prepared marketplace service quotes to use the workshop's reviewed starting-price catalog while keeping completed order snapshots stable. New checkout paths convert displayed marketplace amounts to the store's payment currency and verify the same unit on callback and in payment records; older pending orders retain their original snapshot for explicit handling. Missing prices now stop a paid service instead of silently creating a free order. The code and synthetic payment cases have passed tests; live price import and release remain gated on confirmation of each source spreadsheet's unit.
+Marketplace seller-service quotes now use the confirmed workshop starting-price catalog while keeping completed order snapshots stable. New checkout paths convert displayed marketplace amounts to the store's payment currency and verify the same unit on callback and in payment records; older pending orders retain their original snapshot for explicit handling. Missing prices stop a paid service instead of silently creating a free order. Live sample quotes and synthetic payment cases passed verification. The separate public-service checkout remains disabled pending its full operational rollout.
 
 # 0.159.21 — Precise case lookup
 
