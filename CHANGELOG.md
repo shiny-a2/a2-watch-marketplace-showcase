@@ -1,3 +1,7 @@
+# 0.159.21 — Precise case lookup
+
+Exact seller reference IDs now appear first in live verification search, even when the same digits occur in many phone numbers. Short terms no longer scan unrelated metadata.
+
 # 0.159.20 — Faster seller verification and a focused operator dashboard
 
 Seller verification now offers an access-controlled live search across case identifiers, names, contact details and linked accounts. The command dashboard shows actionable queues without repeating idle navigation stages. The search component was checked in light and dark themes at mobile and desktop widths, including interactive results and keyboard focus.
