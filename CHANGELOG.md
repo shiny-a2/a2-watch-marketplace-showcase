@@ -1,3 +1,7 @@
+# 0.159.25 — Seller declarations in workshop review
+
+Authorized workshop staff can now read the seller's watch description, movement type, declared accessories and asking price together when reviewing a submission or receiving a parcel. The bridge passes only watch details needed for that work and uses one bounded lookup for parcel submissions. Synthetic data and responsive visual checks covered missing legacy fields and both themes; no customer record or transaction was created for testing.
+
 # 0.159.24 — Clear post-payment continuation
 
 After a confirmed service checkout, customers can return directly to their request to record how the watch will arrive. A continuation link also appears on the ordinary order receipt path. Synthetic checks covered the service-only routing without placing a real order.
