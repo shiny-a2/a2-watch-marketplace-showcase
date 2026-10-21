@@ -1,3 +1,7 @@
+# 0.159.24 — Clear post-payment continuation
+
+After a confirmed service checkout, customers can return directly to their request to record how the watch will arrive. A continuation link also appears on the ordinary order receipt path. Synthetic checks covered the service-only routing without placing a real order.
+
 # 0.159.23 — Standalone watch-service request flow
 
 The private marketplace now has a separate customer request path for watch services. It keeps a clear progression from request and reviewed estimate to payment status, watch handoff and workshop intake. Duplicate actions and interrupted checkout attempts have explicit recovery paths. The customer and staff screens use the same responsive light/dark visual system. Synthetic lifecycle and visual checks passed; no real purchase or customer message was created for testing.
