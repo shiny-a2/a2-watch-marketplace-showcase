@@ -1,3 +1,7 @@
+# 0.159.23 — Standalone watch-service request flow
+
+The private marketplace now has a separate customer request path for watch services. It keeps a clear progression from request and reviewed estimate to payment status, watch handoff and workshop intake. Duplicate actions and interrupted checkout attempts have explicit recovery paths. The customer and staff screens use the same responsive light/dark visual system. Synthetic lifecycle and visual checks passed; no real purchase or customer message was created for testing.
+
 # 0.159.22 — Service pricing and payment-unit safety
 
 Marketplace seller-service quotes now use the confirmed workshop starting-price catalog while keeping completed order snapshots stable. New checkout paths convert displayed marketplace amounts to the store's payment currency and verify the same unit on callback and in payment records; older pending orders retain their original snapshot for explicit handling. Missing prices stop a paid service instead of silently creating a free order. Live sample quotes and synthetic payment cases passed verification. The separate public-service checkout remains disabled pending its full operational rollout.
@@ -9,7 +13,6 @@ Exact seller reference IDs now appear first in live verification search, even wh
 # 0.159.20 — Faster seller verification and a focused operator dashboard
 
 Seller verification now offers an access-controlled live search across case identifiers, names, contact details and linked accounts. The command dashboard shows actionable queues without repeating idle navigation stages. The search component was checked in light and dark themes at mobile and desktop widths, including interactive results and keyboard focus.
-
 # 0.159.19 — Marketplace identity reaches one customer file
 
 Verified marketplace sign-in and completed buyer or seller profiles now emit narrow events for a shared, phone-keyed customer record. This lets an operator recognize a marketplace-origin visitor without creating a second customer file; details supplied later enrich the same file. Existing acquisition sources and operator edits remain protected. Offline checks covered account reuse and duplicate prevention.
