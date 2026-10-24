@@ -1,3 +1,15 @@
+# 0.159.28 — Service wizard visual polish
+
+The service flow keeps the page's natural starting position and places later steps below the sticky navigation. Headings follow the shared light and dark text palette, and step motion respects reduced-motion preferences. Mobile and desktop visual checks passed in both themes.
+
+# 0.159.27 — Browse service prices before sign-in
+
+Visitors can choose a watch brand and see available starting prices before signing in. Their watch and service choices carry through phone sign-in, so they can continue the request without repeating the first steps. The page now has one clear service wizard instead of repeated introductions.
+
+# 0.159.26 — Multi-service watch care request
+
+The customer service page now guides watch details, selected services, up to three optional photos and a final price review through four steps. Starting prices come from the established repair catalog, and unpriced work cannot enter checkout. Selected services remain itemized for the customer and workshop. Synthetic payment and duplicate-submission checks passed; no real payment or customer message was sent for testing.
+
 # 0.159.25 — Seller declarations in workshop review
 
 Authorized workshop staff can now read the seller's watch description, movement type, declared accessories and asking price together when reviewing a submission or receiving a parcel. The bridge passes only watch details needed for that work and uses one bounded lookup for parcel submissions. Synthetic data and responsive visual checks covered missing legacy fields and both themes; no customer record or transaction was created for testing.
