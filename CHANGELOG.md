@@ -1,3 +1,7 @@
+# 0.159.29 — One clear identity review entry
+
+The marketplace operations dashboard now places the identity-document sub-count inside the seller-verification card. Operators keep the review signal while seeing one route to that queue. A focused offline check confirms the destination appears once and the count remains visible.
+
 # 0.159.28 — Service wizard visual polish
 
 The service flow keeps the page's natural starting position and places later steps below the sticky navigation. Headings follow the shared light and dark text palette, and step motion respects reduced-motion preferences. Mobile and desktop visual checks passed in both themes.
