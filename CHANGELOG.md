@@ -1,3 +1,7 @@
+# In review — Search intent and canonical marketplace pages
+
+A marketplace can split the same buying or selling intent across several landing URLs while virtual pages inherit unrelated metadata from a host CMS. The private update assigns one canonical page to each primary intent, redirects duplicate routes, aligns virtual-page metadata with their visible content, and removes misleading modification dates from its sitemap. Empty or withdrawn watch details are excluded from indexing. A Persian keyword seed map separates browsing, selling, authenticity, services and auctions without treating candidate phrases as verified search volume or promising stock and guarantees. Offline route and workflow checks passed (325 checks); the current live home was reviewed in light and dark at phone and desktop widths. The new source's appearance and indexation have not been verified on the live site. This is a source update, not a production deployment claim.
+
 # 0.159.29 — One clear identity review entry
 
 The marketplace operations dashboard now places the identity-document sub-count inside the seller-verification card. Operators keep the review signal while seeing one route to that queue. A focused offline check confirms the destination appears once and the count remains visible.
