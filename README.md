@@ -93,6 +93,7 @@ This is an architecture showcase, so no production performance KPI is claimed. I
 
 ## Operational Learnings
 
+- A seller photo taken against white can look light gray under ordinary lighting. The reviewed intake change refuses only clearly unsuitable front-photo backgrounds at upload time and checks them again on the server; uncertain images stay available for human review. This gives sellers a useful retake prompt without treating a color cast as a failed submission. Synthetic image checks and responsive light/dark upload states were validated offline; no live seller upload or production rollout is claimed here.
 - Marketplaces are trust systems before they are catalog systems.
 - State design matters more than UI volume early in the project.
 - Public case studies should be honest about runtime status.
