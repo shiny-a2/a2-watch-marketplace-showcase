@@ -1,3 +1,11 @@
+# 0.159.33 — Make review explanations visible, 2026-10-26
+
+When a watch review proposes a different price, the seller now sees the technician's explanation beside the proposed amount. Previously, that explanation was stored but omitted from the proposal card. Correction feedback also has a clear next step and a link to repair messages. The change works with existing stored feedback and does not resend customer notifications.
+
+The cards use the shared light/dark palette, preserve multiline explanations and escape submitted text. Internal operator notes remain private, and staff are represented by a department label. Price consent no longer implies that requested corrections or final publication review can be skipped.
+
+Validation: 8 focused feedback checks, 31 refusal/notification checks with a mocked provider and 129 price-proposal checks passed. Synthetic browser checks covered phone and desktop widths in both themes, keyboard focus, hover, expandable details, text contrast and horizontal containment. A separate broader suite still has two pre-existing automatic-approval expectation failures, reproduced on the unchanged baseline. No real customer messages or financial records were created for testing; handset delivery and an authenticated end-to-end rejection were not tested.
+
 # 0.159.31–0.159.32 — Clearer seller guidance and keyboard access, 2026-10-26
 
 Search queries showed that sellers wanted to know whether the marketplace buys their used watches directly. The sell page now answers that question in plain language: a submission starts review and possible listing, and it does not promise an immediate purchase or a completed sale. This helps sellers understand what happens before they provide watch details.
