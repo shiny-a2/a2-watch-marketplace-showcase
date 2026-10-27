@@ -1,3 +1,9 @@
+# 0.159.34 — Consistent listing edit screens, 2026-10-27
+
+Listing edit and review pages now use the marketplace navigation and footer. Sellers see the current price beside their proposed price, a clear choice between price and content edits, and separate sections for details, photos and review notes. Gallery controls are easier to select on a phone, and the review comparison stacks vertically on smaller screens.
+
+Validation covered 34 existing workflow checks and eight synthetic views across phone and desktop sizes in light and dark themes, including photo selection, text entry, focus and expanded descriptions. Authenticated submissions and real notifications were not tested. This note describes the source update; production rollout is not claimed.
+
 # 0.159.33 — Make review explanations visible, 2026-10-26
 
 When a watch review proposes a different price, the seller now sees the technician's explanation beside the proposed amount. Previously, that explanation was stored but omitted from the proposal card. Correction feedback also has a clear next step and a link to repair messages. The change works with existing stored feedback and does not resend customer notifications.
