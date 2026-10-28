@@ -1,3 +1,9 @@
+# Marketplace catalogue availability and search description — 2026-10-28
+
+The watch catalogue now says clearly when no watches are available to buy. A filtered search still explains that its filters found no match, while brand pages retain their own availability message. The catalogue search description describes browsing and comparison without implying that listings are currently in stock.
+
+The scoped production update was checked on the live catalogue and representative filtered and brand pages. Offline workflow checks passed (326 checks), and the catalogue and filters were inspected at phone and desktop widths in light and dark themes, including keyboard focus and expanded filters. Search ranking and future stock availability were not tested. The installed plugin version remains 0.159.33.
+
 # Seller rules and search clarity — 2026-10-28
 
 The marketplace's public seller rules now match its current intake: a watch reference can be omitted, a proposed price is required, and the box choice describes whether a box accompanies the watch. The rules page also has a specific search description and a clearer introduction to the listing, review and settlement stages. This removes conflicting guidance at the point where a seller agrees to the rules.
