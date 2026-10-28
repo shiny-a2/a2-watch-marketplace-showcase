@@ -1,3 +1,9 @@
+# Marketplace overview for buyers and sellers — 2026-10-28
+
+The marketplace overview now introduces both buying a used watch and submitting one for sale. Its heading, introduction and search description point to the matching catalogue and seller guide without implying that watches are currently available. The overview guide can also be opened with a keyboard.
+
+The scoped update was checked on the live overview page after deployment. PHP syntax and 326 offline marketplace flow checks passed. Phone and desktop views were inspected in light and dark themes, including the opened guide, keyboard operation and horizontal containment. Search ranking and authenticated transactions were not tested. The installed plugin version remains 0.159.33.
+
 # Seller guide aligned with the registration form — 2026-10-28
 
 The public selling guide now answers the practical question of how to sell a used watch. It makes the reference number optional, points to the form’s missing-box choice, and explains how to mention a missing card. The copy follows the form and existing seller rules without promising a sale, a price or an authenticity result.
