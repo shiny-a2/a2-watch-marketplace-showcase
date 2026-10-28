@@ -1,3 +1,8 @@
+# Marketplace services search clarity — 2026-10-29
+The services page now names the five options currently available in its online request form: battery replacement, polishing, glass replacement, leather strap replacement and strap sizing. Its search title and description follow the same scope. The page explains that starting prices depend on the selected brand, that extra work requires coordination, and that motor service or other repairs should be discussed with support when absent from the form.
+
+The live title, description, canonical URL, heading and service text were checked after publication and a targeted cache purge. PHP syntax, the focused service journey and pricing checks, 326 offline flow checks, and the utility page checks passed. Phone and desktop layouts were inspected in light and dark themes for text and horizontal containment. No authenticated payment, customer service request or ranking outcome was tested. The installed plugin version remains 0.159.33.
+
 # Marketplace authenticity guidance — 2026-10-29
 
 The authenticity page now explains the difference between an initial photo review, a physical inspection and an issued digital card. Buyers can check the current standing on each watch listing; holders of an issued card can open its link or QR to inspect its current public details. The title and description reflect those limits, and the page uses informational structured data rather than a product collection type. The separate listing-specific request form is excluded from indexing while the public guide remains indexable.
@@ -415,9 +420,3 @@ The release adds responsive request/review screens, ownership checks, duplicate 
 
 - Samples are architecture references and are not a production marketplace implementation.
 - Sensitive verification, payment, and dispute logic is intentionally excluded.
-# Marketplace services search clarity — 2026-10-29
-
-The services page now names the five options currently available in its online request form: battery replacement, polishing, glass replacement, leather strap replacement and strap sizing. Its search title and description follow the same scope. The page explains that starting prices depend on the selected brand, that extra work requires coordination, and that motor service or other repairs should be discussed with support when absent from the form.
-
-The live title, description, canonical URL, heading and service text were checked after publication and a targeted cache purge. PHP syntax, the focused service journey and pricing checks, 326 offline flow checks, and the utility page checks passed. Phone and desktop layouts were inspected in light and dark themes for text and horizontal containment. No authenticated payment, customer service request or ranking outcome was tested. The installed plugin version remains 0.159.33.
-
