@@ -1,3 +1,9 @@
+# Marketplace auction page clarity — 2026-10-29
+
+The auction page now describes its actual open-lot list without promising rare, vintage or authenticated inventory. A short guide explains where buyers can check the watch, bid window, entry ticket and minimum next bid, and why a paid ticket or displayed high bid is not a final purchase result. It also separates auction status from each watch's authenticity standing and links sellers to the ordinary watch submission path.
+
+The published page was checked after a targeted cache purge: title, description, canonical URL, heading and guide text matched the reviewed source. PHP syntax, the marketplace utility checks and 326 offline flow checks passed. Mobile and desktop layouts were inspected in light and dark themes, including link focus and the mobile menu; no horizontal overflow was observed. No real ticket purchase, bid, authenticated buyer journey or ranking change was tested. The installed plugin version remains 0.159.33.
+
 # Marketplace services search clarity — 2026-10-29
 
 The services page now names the five options currently available in its online request form: battery replacement, polishing, glass replacement, leather strap replacement and strap sizing. Its search title and description follow the same scope. The page explains that starting prices depend on the selected brand, that extra work requires coordination, and that motor service or other repairs should be discussed with support when absent from the form.
