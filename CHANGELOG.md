@@ -1,3 +1,9 @@
+# Seller guide aligned with the registration form — 2026-10-28
+
+The public selling guide now answers the practical question of how to sell a used watch. It makes the reference number optional, points to the form’s missing-box choice, and explains how to mention a missing card. The copy follows the form and existing seller rules without promising a sale, a price or an authenticity result.
+
+The scoped page-content update was checked on the live selling page. Offline marketplace flow checks passed (326 checks), and the page was inspected at phone and desktop widths in light and dark themes, including the opened guide and keyboard focus. Authenticated submission and search ranking outcomes were not tested. The installed plugin version remains 0.159.33.
+
 # Marketplace catalogue availability and search description — 2026-10-28
 
 The watch catalogue now says clearly when no watches are available to buy. A filtered search still explains that its filters found no match, while brand pages retain their own availability message. The catalogue search description describes browsing and comparison without implying that listings are currently in stock.
