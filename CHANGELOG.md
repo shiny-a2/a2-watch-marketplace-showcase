@@ -1,3 +1,9 @@
+# Marketplace authenticity guidance — 2026-10-29
+
+The authenticity page now explains the difference between an initial photo review, a physical inspection and an issued digital card. Buyers can check the current standing on each watch listing; holders of an issued card can open its link or QR to inspect its current public details. The title and description reflect those limits, and the page uses informational structured data rather than a product collection type.
+
+The live page was checked after a targeted cache purge. PHP syntax, the focused storefront checks and 326 offline marketplace flow checks passed. Phone and desktop views were inspected in light and dark themes, including text readability, destinations, input focus and horizontal containment. No certificate lookup with customer data, authenticated transaction or search ranking outcome was tested. The installed plugin version remains 0.159.33.
+
 # Marketplace overview for buyers and sellers — 2026-10-28
 
 The marketplace overview now introduces both buying a used watch and submitting one for sale. Its heading, introduction and search description point to the matching catalogue and seller guide without implying that watches are currently available. The overview guide can also be opened with a keyboard.
