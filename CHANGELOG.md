@@ -1,3 +1,9 @@
+# Seller rules and search clarity — 2026-10-28
+
+The marketplace's public seller rules now match its current intake: a watch reference can be omitted, a proposed price is required, and the box choice describes whether a box accompanies the watch. The rules page also has a specific search description and a clearer introduction to the listing, review and settlement stages. This removes conflicting guidance at the point where a seller agrees to the rules.
+
+Validation covered 326 offline flow checks, PHP syntax, and the live public rules page at phone and desktop widths in light and dark themes. The live URL was checked after a targeted page-cache purge. The authenticated seller form was not exercised with a real account, and no search ranking outcome is claimed. The production change was limited to the four affected runtime files; the installed plugin version remains 0.159.33.
+
 # 0.159.34 — Consistent listing edit screens, 2026-10-27
 
 Listing edit and review pages now use the marketplace navigation and footer. Sellers see the current price beside their proposed price, a clear choice between price and content edits, and separate sections for details, photos and review notes. Gallery controls are easier to select on a phone, and the review comparison stacks vertically on smaller screens.
