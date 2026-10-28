@@ -1,4 +1,5 @@
 # Marketplace services search clarity — 2026-10-29
+
 The services page now names the five options currently available in its online request form: battery replacement, polishing, glass replacement, leather strap replacement and strap sizing. Its search title and description follow the same scope. The page explains that starting prices depend on the selected brand, that extra work requires coordination, and that motor service or other repairs should be discussed with support when absent from the form.
 
 The live title, description, canonical URL, heading and service text were checked after publication and a targeted cache purge. PHP syntax, the focused service journey and pricing checks, 326 offline flow checks, and the utility page checks passed. Phone and desktop layouts were inspected in light and dark themes for text and horizontal containment. No authenticated payment, customer service request or ranking outcome was tested. The installed plugin version remains 0.159.33.
