@@ -1,3 +1,9 @@
+# 0.159.35 — Used Rolex marketplace guide — 2026-10-29
+
+The used Rolex page now helps buyers compare a listing's reference, condition, accessories, price and individual authenticity standing. It explains that the marketplace's independent inspection and digital card are separate from Rolex Certified Pre-Owned. The brand archive remains limited to Rolex and clearly reports when no Rolex watches are ready for sale. Its search title and description reflect the guide and current-inventory view without promising stock.
+
+The live title, description, canonical URL, guide and empty state were checked after release and a targeted cache purge. PHP syntax and focused marketplace route and brand checks passed. Mobile and desktop layouts were inspected in light and dark themes, including keyboard focus and horizontal containment. No real purchase, authenticated seller submission or search ranking outcome was tested.
+
 # Marketplace auction page clarity — 2026-10-29
 
 The auction page now describes its actual open-lot list without promising rare, vintage or authenticated inventory. A short guide explains where buyers can check the watch, bid window, entry ticket and minimum next bid, and why a paid ticket or displayed high bid is not a final purchase result. It also separates auction status from each watch's authenticity standing and links sellers to the ordinary watch submission path.
