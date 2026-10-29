@@ -173,3 +173,7 @@ PHP, WordPress, WooCommerce, MySQL, REST API, JavaScript.
 - Projects: https://amiraliyaghouti.com/projects.html
 - Case studies: https://amiraliyaghouti.com/case-studies.html
 - GitHub profile: https://github.com/shiny-a2
+
+## Latest update
+
+[October 30, 2026 release notes](docs/releases/2026-10-30.md).
