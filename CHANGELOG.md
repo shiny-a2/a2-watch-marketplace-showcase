@@ -1,3 +1,9 @@
+# 0.159.36 — Used Omega marketplace guide — 2026-10-29
+
+The used Omega page now helps buyers compare each listing's exact reference, condition, stated accessories and documented service history. It advises checking current water resistance when relevant and explains that an old card does not establish current warranty. The marketplace's own authenticity card is clearly separate from a brand-issued document. The Omega-only archive reports when no watches are ready for sale; its title and description do not promise stock.
+
+After a targeted cache purge, the live title, description, canonical URL, guide, empty state and asset version matched the reviewed release. PHP syntax, focused route and brand checks, and 326 offline marketplace flow checks passed. Mobile and desktop layouts were inspected in light and dark themes, including keyboard focus and horizontal containment. No real purchase, authenticated seller submission or ranking outcome was tested.
+
 # 0.159.35 — Used Rolex marketplace guide — 2026-10-29
 
 The used Rolex page now helps buyers compare a listing's reference, condition, accessories, price and individual authenticity standing. It explains that the marketplace's independent inspection and digital card are separate from Rolex Certified Pre-Owned. The brand archive remains limited to Rolex and clearly reports when no Rolex watches are ready for sale. Its search title and description reflect the guide and current-inventory view without promising stock.
