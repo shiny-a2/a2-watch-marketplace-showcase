@@ -1,3 +1,9 @@
+# 0.159.40 — Marketplace guidance after the main task — 2026-10-31
+
+The marketplace home, watch archive and focused buying guides now place supporting questions after the main listing or verification action. Longer guidance opens with a keyboard-accessible “more” control. The former keyword chips on these landing pages have been replaced with practical answers about comparing listings and reading each watch's authenticity status.
+
+The release was checked with focused PHP regressions and responsive light/dark browser previews. Live checks confirmed the new section below the main content on the home, archive, Rolex, Omega and authenticity pages; the archive does not duplicate the FAQ inside a brand page. No real purchase or seller submission was made, and no search ranking or FAQ rich result is claimed.
+
 # 0.159.39 — Marketplace reading layout — 2026-10-31
 
 Buyer guides now center their headings and use a more comfortable text layout across phone and desktop widths. The seller rules use centered headings and clearer paragraph alignment; numbered clauses remain easy to scan on narrow screens. The change addresses uneven Persian word spacing in the previous mobile layout.
