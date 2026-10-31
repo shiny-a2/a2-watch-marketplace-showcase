@@ -1,3 +1,9 @@
+# 0.159.39 — Marketplace reading layout — 2026-10-31
+
+Buyer guides now center their headings and use a more comfortable text layout across phone and desktop widths. The seller rules use centered headings and clearer paragraph alignment; numbered clauses remain easy to scan on narrow screens. The change addresses uneven Persian word spacing in the previous mobile layout.
+
+The affected guide and rules pages were inspected at mobile and desktop widths in light and dark themes, with no horizontal overflow observed. This typography release does not imply new listings, additional sales or a change in search ranking.
+
 # 0.159.36 — Used Omega marketplace guide — 2026-10-29
 
 The used Omega page now helps buyers compare each listing's exact reference, condition, stated accessories and documented service history. It advises checking current water resistance when relevant and explains that an old card does not establish current warranty. The marketplace's own authenticity card is clearly separate from a brand-issued document. The Omega-only archive reports when no watches are ready for sale; its title and description do not promise stock.
