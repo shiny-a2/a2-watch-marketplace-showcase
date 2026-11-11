@@ -1,3 +1,27 @@
+## 0.163.0 — Popular watches and clearer product information — 2026-11-12
+
+The home hero now presents up to ten eligible watches, ordered by recorded page
+views over the last 30 days. Previous/next buttons, touch swipes and RTL keyboard
+controls change the photograph, price and recorded facts together. The arched
+frame stays, while the repeated listing rail below it is removed. The carousel
+uses the available inventory without repeating watches to fill empty slots and
+has no automatic rotation.
+
+Product descriptions and specifications now share one visible section. Actual
+expert-review standing and access to an issued authenticity card remain close to
+purchasing, with the repeated authenticity tab removed. Original watch, packaging
+and inspection illustrations distinguish buying, selling and services; an
+illustrated sequence explains the purchasing steps on desktop and phones.
+
+Validation: focused ranking, eligibility, failure-fallback and purchase regression
+checks passed. Synthetic tests covered ten slides, empty/single inventory,
+JavaScript-disabled rendering, touch and keyboard input. Light/dark previews at
+320/390/1440 pixels passed. After publication, eight home/product phone/desktop
+cases and real catalogue search passed, including sampled contrast, gallery
+controls, optional-service selection and source/asset verification. Service
+submission was intercepted locally; no real purchase or authenticated production
+journey was exercised. This release does not change payment or warranty policy.
+
 ## 0.162.0 — A more visual watch showcase — 2026-11-12
 
 The home and product pages needed a stronger graphic hierarchy after the prior

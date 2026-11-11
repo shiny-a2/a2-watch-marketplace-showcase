@@ -8,13 +8,12 @@ Published interface updates are verified individually; end-to-end production rea
 
 ## Current interface release
 
-The [0.162.0 release notes](CHANGELOG.md) describe a more visual watch showcase:
-a real listing photo beside home search, clearer watch cards, illustrated service
-routes and a distinctly labelled sample authenticity card. Product pages frame
-the gallery and separate buying from detailed information, showing quick facts
-only when recorded. The shared themes and existing purchase behavior remain in
-place. Real payments and signed-in production journeys are outside the visual
-verification scope.
+The [0.163.0 release notes](CHANGELOG.md) describe a popular-watch hero carousel,
+unified product descriptions and specifications, and illustrated buying, selling
+and service routes. Touch, buttons and RTL keyboard controls move through the
+available watches; actual standing and issued-card access stay close to buying.
+Shared themes and existing purchase behavior are preserved. Real payments and
+signed-in production journeys remain outside the visual verification scope.
 
 ## Reviewer Shortcut
 
