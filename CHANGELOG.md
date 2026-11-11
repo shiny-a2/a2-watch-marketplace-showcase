@@ -1,3 +1,26 @@
+## 0.162.0 — A more visual watch showcase — 2026-11-12
+
+The home and product pages needed a stronger graphic hierarchy after the prior
+usability work. A framed photograph of an actual public watch now accompanies
+home search, while the catalogue, service routes and sample authenticity card
+have more distinct presentation. The mobile feature stays compact so discovery
+remains close to the introduction.
+
+Product galleries show their actual photo count and preserve the original
+photographs. The buying panel can surface up to three recorded specifications;
+detailed facts and optional services remain clearly separated. Empty photo and
+missing-specification states do not invent content. Shared light/dark colors,
+keyboard interaction and existing purchase behavior are preserved.
+
+Validation: sixteen synthetic responsive/theme cases and six focused regression
+suites passed. Twelve previews with the real public site chrome and photographs
+covered 320/390/1440 pixels in light/dark, including sampled text contrast,
+keyboard focus and horizontal containment. After publication, eight read-only
+home/product cases passed at phone/desktop widths in both themes, together with
+the real search route and published source/asset checks. Gallery, tabs and service
+selection were exercised without submitting a transaction. No real payment,
+message or signed-in customer action was created for presentation testing.
+
 ## 0.161.1 — Easier watch discovery and product decisions — 2026-11-12
 
 The previous home introduction pushed watches too far down the page, while the
