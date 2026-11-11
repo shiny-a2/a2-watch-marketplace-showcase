@@ -8,10 +8,12 @@ Published interface updates are verified individually; end-to-end production rea
 
 ## Current interface release
 
-The [0.160.1 release notes](CHANGELOG.md) cover the published marketplace entry,
-clearer filters, structured watch facts and optional coverage selection. Synthetic
-behavior and responsive theme checks passed; live source and asset versions were
-verified. Coverage requires staff configuration for each watch.
+The [0.161.1 release notes](CHANGELOG.md) describe a clearer watch-first home and
+product page: direct search, earlier access to real listings, specifications
+before optional services, and a contained mobile purchase bar. Selected services
+stay with the purchase action. Shared themes and existing purchase checks are
+preserved; real payments and signed-in production journeys remain outside this
+release's visual verification.
 
 ## Reviewer Shortcut
 
