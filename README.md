@@ -8,11 +8,11 @@ Published interface updates are verified individually; end-to-end production rea
 
 ## Current interface release
 
-The [0.163.1 release notes](CHANGELOG.md) describe a popular-watch hero carousel,
-unified product descriptions and specifications, and illustrated buying, selling
-and service routes. Three-second automatic rotation, pause/play, touch and RTL keyboard controls move
-through the available watches; actual standing and issued-card access stay close to buying.
-Shared themes and existing purchase behavior are preserved. Real payments and
+The [0.164.1 release notes](CHANGELOG.md) describe a refreshed seller form with
+women's, men's and unisex watch choices, browser draft recovery for answers and
+photos, and visible save feedback. The existing popular-watch carousel rotates
+every three seconds with pause/play controls. Shared themes, lower-page guidance
+and existing review and purchasing rules are preserved. Real payments and
 signed-in production journeys remain outside the visual verification scope.
 
 ## Reviewer Shortcut

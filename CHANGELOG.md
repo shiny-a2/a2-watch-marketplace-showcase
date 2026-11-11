@@ -1,3 +1,29 @@
+## 0.164.1 — Recoverable watch registration — 2026-11-12
+
+Sellers can select women's, men's or unisex watches and recover their answers,
+current step and selected photographs after returning to the form in the same
+browser. Failed submissions keep the draft; accepted submissions clear it.
+Visible save feedback explains when browser storage is unavailable. Drafts are
+separate for accounts and corrections, and conflicting tabs cannot silently
+overwrite each other. Recovery lasts up to 30 days and is not cross-device.
+
+The form now uses the marketplace's watch illustration and shared light/dark
+palette, groups optional specifications, previews selected photos and labels the
+next action as save and continue. Existing lower-page sales guidance remains,
+with the shared FAQ available below the form.
+
+Validation: synthetic browser checks covered recovery, denied and interrupted
+requests, accepted responses, fresh/legacy/expired drafts, separate accounts and
+corrections, unavailable storage, competing tabs and the no-JavaScript fallback.
+Interactive mobile/desktop light/dark previews and focused domain regressions
+passed. Final previews included 320-pixel screens and direct form rendering.
+No real submission, message or payment was used for presentation tests.
+
+Post-publication checks passed at 320, 390 and 1440 pixels in both themes,
+including keyboard-operated guidance and retained existing SEO copy. Installed
+source and public browser assets matched the release. Authenticated production
+submission and physical mobile-device recovery remain outside this verification.
+
 ## 0.163.1 — Automatic hero rotation — 2026-11-12
 
 The home carousel now advances every three seconds. A pause/play control keeps
