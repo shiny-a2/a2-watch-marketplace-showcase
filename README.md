@@ -8,10 +8,10 @@ Published interface updates are verified individually; end-to-end production rea
 
 ## Current interface release
 
-The [0.163.0 release notes](CHANGELOG.md) describe a popular-watch hero carousel,
+The [0.163.1 release notes](CHANGELOG.md) describe a popular-watch hero carousel,
 unified product descriptions and specifications, and illustrated buying, selling
-and service routes. Touch, buttons and RTL keyboard controls move through the
-available watches; actual standing and issued-card access stay close to buying.
+and service routes. Three-second automatic rotation, pause/play, touch and RTL keyboard controls move
+through the available watches; actual standing and issued-card access stay close to buying.
 Shared themes and existing purchase behavior are preserved. Real payments and
 signed-in production journeys remain outside the visual verification scope.
 

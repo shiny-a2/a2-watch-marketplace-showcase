@@ -1,3 +1,18 @@
+## 0.163.1 — Automatic hero rotation — 2026-11-12
+
+The home carousel now advances every three seconds. A pause/play control keeps
+browsing in the visitor's hands; hover, keyboard focus and touch suspend the
+rotation. It also pauses outside the viewport and in hidden tabs. Reduced-motion
+preferences start playback paused, and manual watch navigation remains available.
+
+Validation: deterministic browser checks covered the three-second boundary,
+wrapping, pause/resume, focus, touch, visibility and reduced motion at mobile and
+desktop widths in both themes. Existing manual-carousel and sparse-inventory
+checks passed. Four public-site previews and four post-publication mobile/desktop
+light/dark cases passed with real-timer advance, pause and resume. Installed
+source and public assets matched the release. No payment, inventory or ranking
+policy changed.
+
 ## 0.163.0 — Popular watches and clearer product information — 2026-11-12
 
 The home hero now presents up to ten eligible watches, ordered by recorded page
