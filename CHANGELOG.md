@@ -1,3 +1,25 @@
+## 0.161.1 — Easier watch discovery and product decisions — 2026-11-12
+
+The previous home introduction pushed watches too far down the page, while the
+product page placed optional services ahead of the watch's specifications.
+
+- A direct search and actual listings now lead the home page. Compact phone cards
+  and wider cards for small desktop inventories make comparisons easier.
+- Product identity, photography, price and purchasing form a clearer sequence.
+  Specifications open first; optional services use an accessible disclosure.
+- The mobile purchase bar fits its viewport. Selected services follow either
+  purchase action, and service errors open the relevant section.
+- Authenticity and seller status remain explicit. Existing payment checks and
+  pricing rules are preserved.
+
+Validation: sixteen synthetic responsive/theme cases exercised keyboard tabs,
+gallery, disclosures, purchase routing, contrast and overflow. Isolated purchase
+and recovery regressions passed. Eight read-only live home/product page cases
+passed across phone/desktop and light/dark, along with the real search route and
+published asset checks. A host-theme purchase text contrast conflict was corrected
+before final verification. Real payments and authenticated production journeys
+have not been exercised.
+
 # 0.160.1 — A clearer watch marketplace — 2026-11-11
 
 The marketplace entry page has been rebuilt around three clear choices: buy a
