@@ -4,13 +4,14 @@
 
 Architecture and implementation showcase for watch marketplace workflows.
 
-Production launch is not represented.
+Published interface updates are verified individually; end-to-end production readiness is not claimed.
 
-## Current experience candidate
+## Current interface release
 
-The [0.160.0 candidate notes](CHANGELOG.md) cover the redesigned marketplace entry,
+The [0.160.1 release notes](CHANGELOG.md) cover the published marketplace entry,
 clearer filters, structured watch facts and optional coverage selection. Synthetic
-behavior and responsive theme checks passed; deployment remains pending.
+behavior and responsive theme checks passed; live source and asset versions were
+verified. Coverage requires staff configuration for each watch.
 
 ## Reviewer Shortcut
 
