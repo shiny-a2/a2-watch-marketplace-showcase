@@ -1,3 +1,35 @@
+# 0.160.1 — A clearer watch marketplace — 2026-11-11
+
+The marketplace entry page has been rebuilt around three clear choices: buy a
+watch, sell a watch, or request service. Filters separate brand, inspection status
+and budget, while the navigation uses one marketplace destination. Authenticity
+inspection has its own presentation, with each watch's certification status kept
+explicit.
+
+Selectable specifications, estimated new prices for discontinued models and
+completed service history make listings easier to compare. Optional bronze,
+silver and gold coverage begins at two years and supports less expensive extra
+years, with staff-configured terms for each watch. Public service requests no
+longer require a model reference, and the surrounding guidance says so explicitly.
+Duplicate legacy guidance panels are removed from the redesigned entry and
+catalogue pages. Change reviews show current and proposed content side by side.
+
+Nineteen focused synthetic regression suites passed, including 69 checks for the
+new behavior. Nine rendered page fixtures were checked at phone and desktop
+widths in light and dark themes, with interactive controls, keyboard focus,
+sampled contrast and horizontal overflow. Additional checks covered authenticity
+requests and issued/revoked cards, including independent QR decoding. The paired
+repair review and startup fixtures also passed.
+
+The interface release was published on 2026-11-11. Deployment checks confirmed
+matching source and asset versions. Twenty live page/theme/viewport checks passed
+for the home, catalogue, product, service and certificate lookup pages; applying a
+brand filter returned the expected listing. Final polish preserves the intended heading
+hierarchy under the host theme and restores the certificate QR renderer. Optional
+coverage remains unavailable until staff configure and enable it per watch. Real
+gateway transactions and authenticated owner acceptance were not exercised; no
+end-to-end readiness or sales outcome is claimed.
+
 # 0.159.40 — Marketplace guidance after the main task — 2026-10-31
 
 The marketplace home, watch archive and focused buying guides now place supporting questions after the main listing or verification action. Longer guidance opens with a keyboard-accessible “more” control. The former keyword chips on these landing pages have been replaced with practical answers about comparing listings and reading each watch's authenticity status.
