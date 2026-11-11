@@ -1,3 +1,25 @@
+# 0.160.0 candidate — A clearer watch marketplace — 2026-11-11
+
+The marketplace entry page has been rebuilt around three clear choices: buy a
+watch, sell a watch, or request service. Filters separate brand, inspection status
+and budget, while the navigation uses one marketplace destination. Authenticity
+inspection has its own presentation, with each watch's certification status kept
+explicit.
+
+Selectable specifications, estimated new prices for discontinued models and
+completed service history make listings easier to compare. Optional bronze,
+silver and gold coverage begins at two years and supports less expensive extra
+years, with staff-configured terms for each watch. Public service requests no
+longer require a model reference. Change reviews show current and proposed content
+side by side.
+
+Fourteen focused synthetic regression suites passed. Nine rendered page fixtures
+were checked at phone and desktop widths in light and dark themes, including
+interactive controls, keyboard focus, sampled contrast and horizontal overflow.
+The paired repair review also passed four responsive theme combinations. This is
+an implemented, offline-tested candidate; production deployment, real gateway
+behavior and authenticated owner acceptance are not represented.
+
 # 0.159.40 — Marketplace guidance after the main task — 2026-10-31
 
 The marketplace home, watch archive and focused buying guides now place supporting questions after the main listing or verification action. Longer guidance opens with a keyboard-accessible “more” control. The former keyword chips on these landing pages have been replaced with practical answers about comparing listings and reading each watch's authenticity status.

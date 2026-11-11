@@ -6,6 +6,12 @@ Architecture and implementation showcase for watch marketplace workflows.
 
 Production launch is not represented.
 
+## Current experience candidate
+
+The [0.160.0 candidate notes](CHANGELOG.md) cover the redesigned marketplace entry,
+clearer filters, structured watch facts and optional coverage selection. Synthetic
+behavior and responsive theme checks passed; deployment remains pending.
+
 ## Reviewer Shortcut
 
 This repo demonstrates marketplace architecture through public-safe state design, not a production launch claim. It relates to seller intake, operator review, certification, reservation, custody, certificate visibility, and settlement boundaries. It proves state-machine thinking, trust boundaries, idempotency, and failure-mode awareness. Start with `docs/infrastructure`, `docs/engineering-notes`, and `samples/infrastructure`. This is a showcase repository, not a production package.
