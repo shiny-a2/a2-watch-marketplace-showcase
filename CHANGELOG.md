@@ -1,3 +1,6 @@
+# Marketplace listing discovery — 2026-11-12
+
+Public used-watch details are indexable, included in the marketplace sitemap and linked from robots.txt. The home page now describes the current buying and selling flow without a blanket authenticity claim. Live public routes and responsive light/dark presentation were checked. See [release note](docs/releases/2026-11-12.md).
 ## 0.164.1 — Recoverable watch registration — 2026-11-12
 
 Sellers can select women's, men's or unisex watches and recover their answers,
