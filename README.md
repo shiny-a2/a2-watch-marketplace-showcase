@@ -8,12 +8,7 @@ Published interface updates are verified individually; end-to-end production rea
 
 ## Current interface release
 
-The [0.164.1 release notes](CHANGELOG.md) describe a refreshed seller form with
-women's, men's and unisex watch choices, browser draft recovery for answers and
-photos, and visible save feedback. The existing popular-watch carousel rotates
-every three seconds with pause/play controls. Shared themes, lower-page guidance
-and existing review and purchasing rules are preserved. Real payments and
-signed-in production journeys remain outside the visual verification scope.
+The [0.164.4 release notes](CHANGELOG.md) describe the supplied brand artwork in the marketplace header, the starred trust seal, and a seller request palette correction. Live archive presentation and navigation were checked on phones and desktop in both themes; the signed-in seller introduction was checked in a synthetic preview.
 
 ## Reviewer Shortcut
 
