@@ -1,3 +1,7 @@
+# 0.164.3 — Used-watch buying guidance — 2026-11-12
+
+The watch archive now answers practical questions about comparing used watches, listed prices and missing accessories, with links to the relevant inspection and seller pages. Live phone and desktop presentation was checked in light and dark. See [release note](docs/releases/2026-11-12.md).
+
 # Marketplace listing discovery — 2026-11-12
 
 Public used-watch details are indexable, included in the marketplace sitemap and linked from robots.txt. The home page now describes the current buying and selling flow without a blanket authenticity claim. Live public routes and responsive light/dark presentation were checked. See [release note](docs/releases/2026-11-12.md).
