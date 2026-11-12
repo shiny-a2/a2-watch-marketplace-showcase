@@ -1,3 +1,7 @@
+# 0.164.4 — Brand header and starred trust badge — 2026-11-12
+
+The marketplace header uses the supplied lossless artwork in both themes and responsive layouts. The starred trust seal replaces the mismatched badge, and seller request copy follows the shared light/dark palette. Live archive, menu, theme and badge checks passed; the authenticated seller introduction was checked with a synthetic preview. See [release note](docs/releases/0.164.4-brand-header.md).
+
 # 0.164.3 — Used-watch buying guidance — 2026-11-12
 
 The watch archive now answers practical questions about comparing used watches, listed prices and missing accessories, with links to the relevant inspection and seller pages. Live phone and desktop presentation was checked in light and dark. See [release note](docs/releases/2026-11-12.md).
