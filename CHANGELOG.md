@@ -1,3 +1,7 @@
+## 0.164.8 — Private service photos and buyer cards — 2026-11-15
+
+Watch photos submitted with a service request are now kept in private storage and shown only with the paid request to authorized repair staff. Buyers can see a matching watch's digital authenticity card and current status beside a paid deposit. See the [release note](docs/releases/2026-11-15-private-service-photos-and-buyer-cards.md) for the verified scope and remaining live checks.
+
 ## 0.164.6 — Marketplace header label — 2026-11-14
 
 The marketplace home link now places “بازارچه” directly below the supplied logo on phones and desktop screens. The header reserves enough space for the stacked mark, including when the site admin bar is visible.

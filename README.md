@@ -8,7 +8,7 @@ Published interface updates are verified individually; end-to-end production rea
 
 ## Current interface release
 
-The [0.164.5 release notes](CHANGELOG.md) describe a seller registration fix: valid form submissions now pass the platform authentication boundary, while failed attempts keep their saved draft. Browser regression checks cover registration, safe retry and rejected requests with synthetic data on mobile and desktop in both themes.
+The [0.164.8 release notes](docs/releases/2026-11-15-private-service-photos-and-buyer-cards.md) describe private handling of watch-service photos and a digital card link beside the matching paid buyer purchase. Isolated authorization and lifecycle checks passed, and the published public pages were checked without creating a purchase.
 
 ## Reviewer Shortcut
 
