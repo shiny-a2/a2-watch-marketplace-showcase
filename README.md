@@ -8,7 +8,7 @@ Published interface updates are verified individually; end-to-end production rea
 
 ## Current interface release
 
-The [0.164.4 release notes](CHANGELOG.md) describe the supplied brand artwork in the marketplace header, the starred trust seal, and a seller request palette correction. Live archive presentation and navigation were checked on phones and desktop in both themes; the signed-in seller introduction was checked in a synthetic preview.
+The [0.164.5 release notes](CHANGELOG.md) describe a seller registration fix: valid form submissions now pass the platform authentication boundary, while failed attempts keep their saved draft. Browser regression checks cover registration, safe retry and rejected requests with synthetic data on mobile and desktop in both themes.
 
 ## Reviewer Shortcut
 

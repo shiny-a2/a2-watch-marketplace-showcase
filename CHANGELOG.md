@@ -1,3 +1,13 @@
+## 0.164.5 — Seller registration recovery — 2026-11-14
+
+A conflict between the enhanced submission request and the native form's security fields prevented valid watch registrations from reaching the application. The request now uses the correct authentication context while preserving the native form fallback.
+
+Expired-page feedback explains how to refresh and resume an existing browser draft. Failed attempts retain entered details and photos; accepted requests clear the draft and stop showing the pending notice.
+
+Validation includes a real platform cookie-auth function, browser multipart requests and isolated application repositories. Four phone/desktop and light/dark combinations cover a saved watch with photo references, retry without duplicates, invalid or missing security tokens, signed-out access and cross-account denial. Existing draft recovery and focused service regressions also pass. Cookie identity and media attachment writes are simulated; real customer submissions are not created for testing.
+
+Publication is verified through read-only live page and asset checks. These checks do not establish end-to-end acceptance with a real seller account.
+
 # 0.164.4 — Brand header and starred trust badge — 2026-11-12
 
 The marketplace header uses the supplied lossless artwork in both themes and responsive layouts. The starred trust seal replaces the mismatched badge, and seller request copy follows the shared light/dark palette. Live archive, menu, theme and badge checks passed; the authenticated seller introduction was checked with a synthetic preview. See [release note](docs/releases/0.164.4-brand-header.md).
