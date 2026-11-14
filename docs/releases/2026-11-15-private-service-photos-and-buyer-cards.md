@@ -1,0 +1,7 @@
+# Marketplace service photos and buyer cards — 0.164.8
+
+The marketplace service form can accept optional watch photos. New request photos are kept in private storage and shown to the Jahanshahr repair desk or an all-branch manager through the paid request they are handling. If secure storage is unavailable, the request is not sent to payment with missing photos.
+
+A buyer with a paid watch deposit can now see that watch's digital authenticity card and current status beside the purchase. The card link is withheld from unpaid or mismatched records and from cards that have not been issued. A revoked card remains visible with its revoked status.
+
+Isolated checks passed for 15 photo and branch-access assertions, 16 buyer-account checks, 53 certificate lifecycle assertions and 334 marketplace flow assertions. Sixty interactive browser assertions covered mobile and desktop widths in both light and dark themes. The scoped release was backed up and published. The installed file hashes and runtime version matched the reviewed source, maintenance mode was off, and the marketplace home, services, certificate lookup, tracking, auctions and seller pages responded successfully. These checks used synthetic data; real gateway callbacks, an issued card in a buyer's live account, repair-device photo display and a phone QR scan remain to be observed on natural transactions. No customer payment or message was created for testing.
