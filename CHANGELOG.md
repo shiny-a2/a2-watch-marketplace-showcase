@@ -1,3 +1,9 @@
+## 0.164.6 — Marketplace header label — 2026-11-14
+
+The marketplace home link now places “بازارچه” directly below the supplied logo on phones and desktop screens. The header reserves enough space for the stacked mark, including when the site admin bar is visible.
+
+The live home, watch archive and seller request pages were checked at phone and desktop widths in both themes. The mobile menu and Escape dismissal worked, and no horizontal overflow was observed. See [release note](docs/releases/0.164.6-brand-label.md).
+
 ## 0.164.5 — Seller registration recovery — 2026-11-14
 
 A conflict between the enhanced submission request and the native form's security fields prevented valid watch registrations from reaching the application. The request now uses the correct authentication context while preserving the native form fallback.
