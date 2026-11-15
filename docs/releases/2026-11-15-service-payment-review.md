@@ -4,4 +4,4 @@ The standalone watch-service flow now rechecks the exact order, customer and cha
 
 This is a paired marketplace and repair update. Synthetic checks covered partial refunds, ownership and amount changes, duplicate callbacks, intake denial and the ordinary cleared path. Customer and staff review states were inspected at phone and desktop widths in light and dark themes, without creating a purchase or message.
 
-The source is prepared in the private projects. Production deployment, a real gateway callback, an authenticated technician session and reconciliation of the first natural service request remain open checks. This note does not claim a completed live transaction.
+The reviewed source was deployed on 2026-11-16 with matching installed file hashes. A real gateway callback, an authenticated technician session and reconciliation of the first natural service request remain open checks. This note does not claim a completed live transaction.
