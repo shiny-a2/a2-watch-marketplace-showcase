@@ -1,3 +1,7 @@
+## Authenticity request payment review — 2026-11-16 (prepared)
+
+If a paid authenticity request changes after payment, the customer account now explains that the case needs review. The repair workspace pauses further assessment and card issuance while keeping a received watch visible for a recorded return. Isolated lifecycle and responsive light/dark checks passed. The source is merged; production deployment, a real payment and an actual technician handoff remain unverified. See the [scope note](docs/releases/2026-11-16-authenticity-payment-review.md).
+
 ## Standalone service payment review — 2026-11-15 (prepared)
 
 A service request whose payment was refunded or later changed now remains visible with a review message. Customer handoff and technician intake pause until the order is reconciled. This paired marketplace and repair update has passed isolated payment and responsive interface checks; production deployment and a real provider transaction remain separate. See the [scope note](docs/releases/2026-11-15-service-payment-review.md).
