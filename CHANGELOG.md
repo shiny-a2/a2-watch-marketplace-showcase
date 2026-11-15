@@ -1,10 +1,14 @@
+## Marketplace service access and theme polish — 2026-11-16 (source ready)
+
+Customers who sign in with a marketplace verification code can now continue from choosing watch services to a payable request. The form explains starting prices with shorter steps, and the marketplace logo remains visible in the dark header. Isolated service, login and navigation checks passed, as did responsive light/dark interface reviews. These updates are merged in the private source; production publication and a real customer payment remain pending.
+
 ## Authenticity request payment review — 2026-11-16
 
 If a paid authenticity request changes after payment, the customer account now explains that the case needs review. The repair workspace pauses further assessment and card issuance while keeping a received watch visible for a recorded return. Isolated lifecycle and responsive light/dark checks passed. The paired source is deployed and its public assets were verified; a real payment and an actual technician handoff remain unverified. See the [scope note](docs/releases/2026-11-16-authenticity-payment-review.md).
 
-## Standalone service payment review — 2026-11-15 (prepared)
+## Standalone service payment review — 2026-11-16
 
-A service request whose payment was refunded or later changed now remains visible with a review message. Customer handoff and technician intake pause until the order is reconciled. This paired marketplace and repair update has passed isolated payment and responsive interface checks; production deployment and a real provider transaction remain separate. See the [scope note](docs/releases/2026-11-15-service-payment-review.md).
+A service request whose payment was refunded or later changed now remains visible with a review message. Customer handoff and technician intake pause until the order is reconciled. This paired marketplace and repair update passed isolated payment and responsive interface checks and was deployed with verified source files. A real provider transaction remains unverified. See the [scope note](docs/releases/2026-11-15-service-payment-review.md).
 
 ## 0.164.8 — Private service photos and buyer cards — 2026-11-15
 
