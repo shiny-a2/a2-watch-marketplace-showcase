@@ -1,6 +1,6 @@
 ## Marketplace service access and theme polish — 2026-11-16 (source ready)
 
-Customers who sign in with a marketplace verification code can now continue from choosing watch services to a payable request. The form explains starting prices with shorter steps, and the marketplace logo remains visible in the dark header. Isolated service, login and navigation checks passed, as did responsive light/dark interface reviews. These updates are merged in the private source; production publication and a real customer payment remain pending.
+Customers who sign in with a marketplace verification code can now continue from choosing watch services to a payable request. The form explains starting prices with shorter steps, and the marketplace logo remains visible in the dark header. The update is live: five reviewed files match the published release, and eight public phone/desktop light/dark checks passed. A real customer payment and technician handoff remain unverified.
 
 ## Authenticity request payment review — 2026-11-16
 
