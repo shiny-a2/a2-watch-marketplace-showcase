@@ -1,3 +1,7 @@
+## Standalone service payment review — 2026-11-15 (prepared)
+
+A service request whose payment was refunded or later changed now remains visible with a review message. Customer handoff and technician intake pause until the order is reconciled. This paired marketplace and repair update has passed isolated payment and responsive interface checks; production deployment and a real provider transaction remain separate. See the [scope note](docs/releases/2026-11-15-service-payment-review.md).
+
 ## 0.164.8 — Private service photos and buyer cards — 2026-11-15
 
 Watch photos submitted with a service request are now kept in private storage and shown only with the paid request to authorized repair staff. Buyers can see a matching watch's digital authenticity card and current status beside a paid deposit. See the [release note](docs/releases/2026-11-15-private-service-photos-and-buyer-cards.md) for the verified scope and remaining live checks.
