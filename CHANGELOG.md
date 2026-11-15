@@ -1,6 +1,6 @@
 ## Watch-service request replay protection — 2026-11-16 (source ready)
 
-A repeat submission of the same service form could create another payable request after its short duplicate check expired. The reviewed update uses the existing unique order code to keep that form to one request, while allowing a retry if the first database insert fails. Isolated service, login, checkout and marketplace flow checks passed. This update has not been deployed, and no real payment was created for testing.
+A repeat submission in the payable service wizard or older request API could create another request after its short duplicate check expired. The reviewed update uses the existing unique order code to keep each account's form token to one request, while allowing a retry if the first priced database insert fails. Isolated service, login, checkout and marketplace flow checks passed. This update has not been deployed, and no real payment was created for testing.
 
 ## Marketplace service access and theme polish — 2026-11-16 (live)
 
