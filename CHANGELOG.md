@@ -1,6 +1,10 @@
-## Watch-service request replay protection — 2026-11-16 (source ready)
+## Marketplace service and card continuity — 2026-11-16 (live)
 
-A repeat submission in the payable service wizard or older request API could create another request after its short duplicate check expired. The reviewed update uses the existing unique order code to keep each account's form token to one request, while allowing a retry if the first priced database insert fails. Isolated service, login, checkout and marketplace flow checks passed. This update has not been deployed, and no real payment was created for testing.
+The marketplace now keeps a repeat service request tied to the same customer form, shows selected watch-service charges beside the deposit, and lets a buyer resume a matching unpaid deposit. Its mobile action menu keeps service choices clear. Digital authenticity cards recheck the related watch, inspection and listing before they appear in a listing or customer account; a revoked card keeps its current status visible through the verification link. The reviewed release is live. Twenty public page/theme/viewport checks and four watch-detail checks passed without page errors or horizontal overflow. A sampled watch gallery opened, zoomed and closed. Real payment, repair handoff, card issuance and phone QR scanning remain to be accepted through natural transactions.
+
+## Watch-service request replay protection — 2026-11-16 (live)
+
+A repeat submission in the payable service wizard or older request API could create another request after its short duplicate check expired. The reviewed update uses the existing unique order code to keep each account's form token to one request, while allowing a retry if the first priced database insert fails. Isolated service, login, checkout and marketplace flow checks passed. This update was deployed as part of the marketplace service release; no real payment was created for testing.
 
 ## Marketplace service access and theme polish — 2026-11-16 (live)
 

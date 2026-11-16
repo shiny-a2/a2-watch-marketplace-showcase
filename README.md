@@ -9,7 +9,7 @@ Published interface updates are verified individually; end-to-end production rea
 
 ## Current interface release
 
-The [0.164.8 release notes](docs/releases/2026-11-15-private-service-photos-and-buyer-cards.md) describe private handling of watch-service photos and a digital card link beside the matching paid buyer purchase. Isolated authorization and lifecycle checks passed, and the published public pages were checked without creating a purchase.
+The [latest release notes](CHANGELOG.md) describe clearer service and deposit totals, safer payment recovery and consistent digital-card visibility. The reviewed update is live and its public pages were checked on phone and desktop widths in both themes. Real payment, technician handoff, card issuance and QR scanning still require operational acceptance.
 
 ## Reviewer Shortcut
 
