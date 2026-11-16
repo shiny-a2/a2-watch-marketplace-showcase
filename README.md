@@ -9,7 +9,7 @@ Published interface updates are verified individually; end-to-end production rea
 
 ## Current interface release
 
-The [latest release notes](CHANGELOG.md) describe clearer service and deposit totals, safer payment recovery and consistent digital-card visibility. The reviewed update is live and its public pages were checked on phone and desktop widths in both themes. Real payment, technician handoff, card issuance and QR scanning still require operational acceptance.
+The [latest release notes](CHANGELOG.md) describe front-photo guidance with a human-review fallback, alongside clearer service and deposit totals and consistent digital-card visibility. The reviewed updates are live, with public pages checked on phone and desktop widths in both themes. Real seller uploads, payment, technician handoff, card issuance and QR scanning still require operational acceptance.
 
 ## Reviewer Shortcut
 
