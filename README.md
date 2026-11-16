@@ -181,6 +181,8 @@ PHP, WordPress, WooCommerce, MySQL, REST API, JavaScript.
 
 ## Latest update
 
+Installed: [connected purchase and seller policies](docs/engineering-notes/connected-purchase-policies.md), with scoped backups and live verification.
+
 [November 11, 2026 release notes](docs/releases/2026-11-11.md).
 
 Engineering note: [recovering failed uploads without duplicate review work](docs/engineering-notes/failed-upload-retries.md).
