@@ -1,6 +1,6 @@
-## Publication notification links — 2026-11-18 (prepared)
+## Publication notification links — 2026-11-18 (installed)
 
-Keep the intended listing attached to its post-certification publication record so staff notifications can open the correct watch. Existing publication rules are preserved. Focused record, certificate and marketplace flow checks pass; production installation and real-device delivery remain pending. [Scope and validation](docs/releases/publication-notice-context-2026-11-18.md).
+Keep the intended listing attached to its post-certification publication record so staff notifications can open the correct watch. Existing publication rules are preserved. Focused record, certificate and marketplace flow checks pass; the paired runtime was installed and physical-device receipt remains unverified. [Scope and validation](docs/releases/publication-notice-context-2026-11-18.md).
 
 ## Seller photo guidance and review fallback — 2026-11-17 (live)
 
