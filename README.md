@@ -1,5 +1,7 @@
 # A2 Watch Marketplace Showcase
 
+Installed notification update: [reliable publication links for staff](docs/releases/publication-notice-context-2026-11-18.md); physical-device receipt remains unverified.
+
 Latest repair workflow update: [consistent marketplace counts and notifications](docs/releases/repair-marketplace-counts-2026-11-15.md).
 [![Sample PHP Syntax Check](https://github.com/shiny-a2/a2-watch-marketplace-showcase/actions/workflows/sample-php-lint.yml/badge.svg)](https://github.com/shiny-a2/a2-watch-marketplace-showcase/actions/workflows/sample-php-lint.yml)
 
