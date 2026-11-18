@@ -4,4 +4,4 @@ Used-watch photographs must keep wear marks, dial text and visible condition int
 
 A rolling spending cap includes outstanding and uncertain requests. Previewing, approving and retrying result delivery do not start another paid request. A fresh paid attempt requires an explicit action.
 
-Local evidence: 130 SQL/image checks, 41 provider/transport tests, 180 editor browser assertions and 12 Repair permission/theme/viewport states passed with synthetic data. Comparison, image failures, focus, contrast and touch targets were exercised at phone and desktop widths in both themes. Production activation and natural-photo cutout quality remain pending; no paid image request or real photo replacement was used for these checks.
+Local evidence: 130 SQL/image checks, 42 provider/transport tests, 180 editor browser assertions and 12 Repair permission/theme/viewport states passed with synthetic data. Comparison, image failures, focus, contrast and touch targets were exercised at phone and desktop widths in both themes. Production activation and natural-photo cutout quality remain pending; no paid image request or real photo replacement was used for these checks.
