@@ -1,3 +1,7 @@
+## Publication notification links — 2026-11-18 (prepared)
+
+Keep the intended listing attached to its post-certification publication record so staff notifications can open the correct watch. Existing publication rules are preserved. Focused record, certificate and marketplace flow checks pass; production installation and real-device delivery remain pending. [Scope and validation](docs/releases/publication-notice-context-2026-11-18.md).
+
 ## Seller photo guidance and review fallback — 2026-11-17 (live)
 
 The watch registration form now checks whether the front photo has a clearly dark or colored background and explains how to retake it. A seller who believes a neutral background was misread can keep the photo and type a confirmation to request human review. Staff see that request when reviewing the watch; the confirmation does not approve the photo. White and light-gray examples pass without the extra step. The reviewed update is live. Twelve image-policy and override checks, the seller journey and four phone/desktop light/dark form interactions passed. Public assets and the guest entry page were checked after release. Real seller uploads and staff decisions remain to be observed.
