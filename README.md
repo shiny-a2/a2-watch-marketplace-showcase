@@ -1,5 +1,7 @@
 # A2 Watch Marketplace Showcase
 
+Released [per-photo background review](docs/releases/photo-background-review-2026-11-18.md). The installed workflow returned a catalogue-photo preview for review.
+
 The [November 24 update](CHANGELOG.md#seller-photo-appeals-and-identity-review--2026-11-24) covers disputed photo assessments and reviewing the current seller documents.
 
 Installed notification update: [reliable publication links for staff](docs/releases/publication-notice-context-2026-11-18.md); physical-device receipt remains unverified.
