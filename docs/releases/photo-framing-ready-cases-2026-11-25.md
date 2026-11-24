@@ -1,0 +1,9 @@
+# Frame saved watch photos and publish eligible cases
+
+Reviewers can rotate a cutout proposal, adjust its size, reset the frame and inspect it enlarged before saving. The complete watch stays centered on a white canvas. The selected framing is derived from the saved proposal, and the original image and restore history remain available. Rotation and resizing resample the existing image; they do not regenerate watch markings or retouch wear.
+
+The save-and-replace action remains visible. Reopening a partially saved result retains its framing for a safe retry. Archived photographs are read-only, with a clear instruction to reopen the current case. If an active image is unchanged but its review metadata moved on, an explicit request can reuse the cached cutout against a fresh review revision. A free-only reuse request cannot turn into a paid job when the source changes or the cached result is unavailable.
+
+Authorized Repair marketplace managers can publish approved cases after existing identity, price and listing gates. Identity viewing remains with its assigned reviewer and closes after that review. Pending review and missing documents are explained separately.
+
+The update is installed. Validation included 184 repository checks, 37 synthetic raster/input checks, 80 review/authorization checks and 252 shared-editor interactions across phone/desktop light/dark states. Paired Repair checks covered deliberate confirmation and keeping a case open when the photo editor closes. Native read-only verification generated rotated PNGs in memory from existing proposals without saving or accepting them. No customer photo, identity decision or listing was accepted/published for testing, and no paid model call or worker restart was required. Natural-photo acceptance remains the reviewer's decision.

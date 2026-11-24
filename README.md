@@ -1,5 +1,7 @@
 # A2 Watch Marketplace Showcase
 
+The [photo framing and ready-case update](docs/releases/photo-framing-ready-cases-2026-11-25.md) adds reviewable framing, safe cutout reuse and clearer publication steps.
+
 The [high-quality watch upload update](docs/releases/watch-upload-quality-2026-11-25.md) adds stronger local compression with clear fallback behavior.
 
 The [watch upload update](docs/releases/watch-upload-size-2026-11-24.md) reduces eligible image files locally while preserving watch detail.
