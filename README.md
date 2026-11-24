@@ -1,5 +1,7 @@
 # A2 Watch Marketplace Showcase
 
+The [high-quality watch upload update](docs/releases/watch-upload-quality-2026-11-25.md) adds stronger local compression with clear fallback behavior.
+
 The [watch upload update](docs/releases/watch-upload-size-2026-11-24.md) reduces eligible image files locally while preserving watch detail.
 
 The [repair queue update](docs/releases/repair-branch-queue-2026-11-24.md) keeps branch views separate and opens case details on demand.
