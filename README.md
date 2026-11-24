@@ -1,5 +1,7 @@
 # A2 Watch Marketplace Showcase
 
+The [repair queue update](docs/releases/repair-branch-queue-2026-11-24.md) keeps branch views separate and opens case details on demand.
+
 The [technician photo update](docs/releases/technician-photo-gallery-2026-11-24.md) adds per-photo review tools and navigation through enlarged watch images.
 
 Released [per-photo background review](docs/releases/photo-background-review-2026-11-18.md). The installed workflow returned a catalogue-photo preview for review.
