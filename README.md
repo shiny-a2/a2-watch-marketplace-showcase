@@ -1,5 +1,7 @@
 # A2 Watch Marketplace Showcase
 
+The [November 24 update](CHANGELOG.md#seller-photo-appeals-and-identity-review--2026-11-24) covers disputed photo assessments and reviewing the current seller documents.
+
 Installed notification update: [reliable publication links for staff](docs/releases/publication-notice-context-2026-11-18.md); physical-device receipt remains unverified.
 
 Latest repair workflow update: [consistent marketplace counts and notifications](docs/releases/repair-marketplace-counts-2026-11-15.md).
