@@ -7,3 +7,10 @@ The save-and-replace action remains visible. Reopening a partially saved result 
 Authorized Repair marketplace managers can publish approved cases after existing identity, price and listing gates. Identity viewing remains with its assigned reviewer and closes after that review. Pending review and missing documents are explained separately.
 
 The update is installed. Validation included 184 repository checks, 37 synthetic raster/input checks, 80 review/authorization checks and 252 shared-editor interactions across phone/desktop light/dark states. Paired Repair checks covered deliberate confirmation and keeping a case open when the photo editor closes. Native read-only verification generated rotated PNGs in memory from existing proposals without saving or accepting them. No customer photo, identity decision or listing was accepted/published for testing, and no paid model call or worker restart was required. Natural-photo acceptance remains the reviewer's decision.
+
+
+## Saving reviewed images reliably
+
+A shared upload optimizer could convert a reviewed PNG during saving, causing the replacement integrity check to reject it. The installed correction preserves only the verified generated file while normal uploads continue to optimize. Checksums remain enforced. Existing ready previews can be saved without another provider request; idempotency and restoration remain available.
+
+198 paired repository/raster checks exercise the actual optimizer with detailed images, framed replacement, normal compression, one attachment, repeated save and restoration. Native source hashes, current versions and allowed/denied access were verified without accepting a real photo. Repair staff can also reject a challenged background explicitly and return the photo for correction without falsely confirming a white background.
